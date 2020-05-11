@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>5 Tools | MCP 236 Foundations Master Class  Ji won Chang</title>
+  <meta name="description" content="MCP 236 Foundations Master Class Ji won Chang" />
+  <meta name="generator" content="bookdown 0.18 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="5 Tools | MCP 236 Foundations Master Class  Ji won Chang" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="5 Tools | MCP 236 Foundations Master Class  Ji won Chang" />
+  
+  
+  
+
+<meta name="author" content="" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="basics.html"/>
+<link rel="next" href="demos.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<script src="libs/htmlwidgets-1.5.1/htmlwidgets.js"></script>
+<link href="libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+<script src="libs/datatables-binding-0.9/datatables.js"></script>
+<link href="libs/dt-core-1.10.19/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="libs/dt-core-1.10.19/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="libs/dt-core-1.10.19/js/jquery.dataTables.min.js"></script>
+<link href="libs/crosstalk-1.0.0/css/crosstalk.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.0.0/js/crosstalk.min.js"></script>
+
+
+<style type="text/css">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Table of contents</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Welcome</a></li>
+<li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Intro</a><ul>
+<li class="chapter" data-level="2.1" data-path="intro.html"><a href="intro.html#definition"><i class="fa fa-check"></i><b>2.1</b> Definition</a></li>
+<li class="chapter" data-level="2.2" data-path="intro.html"><a href="intro.html#about"><i class="fa fa-check"></i><b>2.2</b> About</a></li>
+<li class="chapter" data-level="2.3" data-path="intro.html"><a href="intro.html#positive-psychology"><i class="fa fa-check"></i><b>2.3</b> Positive Psychology</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="onboarding.html"><a href="onboarding.html"><i class="fa fa-check"></i><b>3</b> Onboarding</a><ul>
+<li class="chapter" data-level="3.1" data-path="onboarding.html"><a href="onboarding.html#summary"><i class="fa fa-check"></i><b>3.1</b> Summary</a></li>
+<li class="chapter" data-level="3.2" data-path="onboarding.html"><a href="onboarding.html#intake"><i class="fa fa-check"></i><b>3.2</b> Intake</a></li>
+<li class="chapter" data-level="3.3" data-path="onboarding.html"><a href="onboarding.html#initial-call"><i class="fa fa-check"></i><b>3.3</b> Initial call</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="basics.html"><a href="basics.html"><i class="fa fa-check"></i><b>4</b> Basics</a><ul>
+<li class="chapter" data-level="4.1" data-path="basics.html"><a href="basics.html#structure"><i class="fa fa-check"></i><b>4.1</b> Structure</a></li>
+<li class="chapter" data-level="4.2" data-path="basics.html"><a href="basics.html#agenda"><i class="fa fa-check"></i><b>4.2</b> Agenda</a></li>
+<li class="chapter" data-level="4.3" data-path="basics.html"><a href="basics.html#narrowing"><i class="fa fa-check"></i><b>4.3</b> Narrowing</a></li>
+<li class="chapter" data-level="4.4" data-path="basics.html"><a href="basics.html#via"><i class="fa fa-check"></i><b>4.4</b> VIA</a></li>
+<li class="chapter" data-level="4.5" data-path="basics.html"><a href="basics.html#articulating"><i class="fa fa-check"></i><b>4.5</b> Articulating</a></li>
+<li class="chapter" data-level="4.6" data-path="basics.html"><a href="basics.html#acknowledgement"><i class="fa fa-check"></i><b>4.6</b> Acknowledgement</a></li>
+<li class="chapter" data-level="4.7" data-path="basics.html"><a href="basics.html#permission"><i class="fa fa-check"></i><b>4.7</b> Permission</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="tools.html"><a href="tools.html"><i class="fa fa-check"></i><b>5</b> Tools</a><ul>
+<li class="chapter" data-level="5.1" data-path="tools.html"><a href="tools.html#powerful-questions"><i class="fa fa-check"></i><b>5.1</b> Powerful questions</a></li>
+<li class="chapter" data-level="5.2" data-path="tools.html"><a href="tools.html#inquiry"><i class="fa fa-check"></i><b>5.2</b> Inquiry</a></li>
+<li class="chapter" data-level="5.3" data-path="tools.html"><a href="tools.html#listening"><i class="fa fa-check"></i><b>5.3</b> Listening</a></li>
+<li class="chapter" data-level="5.4" data-path="tools.html"><a href="tools.html#inner-critic"><i class="fa fa-check"></i><b>5.4</b> Inner Critic</a></li>
+<li class="chapter" data-level="5.5" data-path="tools.html"><a href="tools.html#intuition"><i class="fa fa-check"></i><b>5.5</b> Intuition</a></li>
+<li class="chapter" data-level="5.6" data-path="tools.html"><a href="tools.html#metaphor"><i class="fa fa-check"></i><b>5.6</b> Metaphor</a></li>
+<li class="chapter" data-level="5.7" data-path="tools.html"><a href="tools.html#coaching-presence"><i class="fa fa-check"></i><b>5.7</b> Coaching Presence</a></li>
+<li class="chapter" data-level="5.8" data-path="tools.html"><a href="tools.html#pillars-of-a-balanced-life"><i class="fa fa-check"></i><b>5.8</b> Pillars of a Balanced Life</a></li>
+<li class="chapter" data-level="5.9" data-path="tools.html"><a href="tools.html#championing"><i class="fa fa-check"></i><b>5.9</b> Championing</a></li>
+<li class="chapter" data-level="5.10" data-path="tools.html"><a href="tools.html#celebrating"><i class="fa fa-check"></i><b>5.10</b> Celebrating</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="demos.html"><a href="demos.html"><i class="fa fa-check"></i><b>6</b> Demos</a><ul>
+<li class="chapter" data-level="6.1" data-path="demos.html"><a href="demos.html#wia"><i class="fa fa-check"></i><b>6.1</b> WIA</a></li>
+<li class="chapter" data-level="6.2" data-path="demos.html"><a href="demos.html#inner-critic-1"><i class="fa fa-check"></i><b>6.2</b> Inner Critic</a></li>
+<li class="chapter" data-level="6.3" data-path="demos.html"><a href="demos.html#metaphor-1"><i class="fa fa-check"></i><b>6.3</b> Metaphor</a></li>
+<li class="chapter" data-level="6.4" data-path="demos.html"><a href="demos.html#coaching-presence-1"><i class="fa fa-check"></i><b>6.4</b> Coaching Presence</a></li>
+<li class="chapter" data-level="6.5" data-path="demos.html"><a href="demos.html#stages-of-change"><i class="fa fa-check"></i><b>6.5</b> Stages of Change</a></li>
+<li class="chapter" data-level="6.6" data-path="demos.html"><a href="demos.html#pillars-of-a-balanced-life-1"><i class="fa fa-check"></i><b>6.6</b> Pillars of a Balanced Life</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="the.html"><a href="the.html"><i class="fa fa-check"></i><b>7</b> Theories</a><ul>
+<li class="chapter" data-level="7.1" data-path="the.html"><a href="the.html#pagmalian-effect"><i class="fa fa-check"></i><b>7.1</b> Pagmalian Effect</a></li>
+<li class="chapter" data-level="7.2" data-path="the.html"><a href="the.html#parkinsons-law"><i class="fa fa-check"></i><b>7.2</b> Parkinson’s Law</a></li>
+<li class="chapter" data-level="7.3" data-path="the.html"><a href="the.html#eisenhower-matrix"><i class="fa fa-check"></i><b>7.3</b> Eisenhower Matrix</a></li>
+<li class="chapter" data-level="7.4" data-path="the.html"><a href="the.html#theories-of-change"><i class="fa fa-check"></i><b>7.4</b> Theories of Change</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="client.html"><a href="client.html"><i class="fa fa-check"></i><b>8</b> Clients</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">MCP 236 Foundations Master Class <br><font size = 5'><i>Ji won Chang</i></font></br></a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="tools" class="section level1">
+<h1><span class="header-section-number">5</span> Tools</h1>
+<div id="powerful-questions" class="section level2">
+<h2><span class="header-section-number">5.1</span> Powerful questions</h2>
+<p style="text-align: right; font-size: 8pt; ">
+<i><code>Irene Nizzero, MCP 236, March 11, 2020 @ 4 PM - 5:30 PM</code></i>
+</p>
+<p>Powerful questions are short, simple, and direct. They make someone ideally think deeply, reflect, but also self-reflect. They lead to discovery, further insight, and perspective for the individual. We want to ask the kinds of questions that will be revealing to our clients that helps them unearth something that they so far had not thought about. A powerful question is open ended and should have multiple answers.</p>
+<ul>
+<li><b>Closed ended</b></li>
+</ul>
+<p>A yes no question is a closed ended question as it only has 2 possible answers and stops the dialogue. Examples of closed ended questions:</p>
+<blockquote>
+<p>When did that all happen?</p>
+</blockquote>
+<p>Powerful questions don’t have to complex, long, or convoluted. In fact, the shorter and more concise the better. They often have no more than five to seven words. Coaches should ask questions like a 4 year old would ask. Also, take your time. Silence is an okay thing in coaching. If it takes you a moment to formulate a powerful question that is okay. There is no harm in saying I am going to need a second to think about this as the coach. It is encouraged to give our clients space and in so doing gives them the opportunity to think through things as well. A good coach will not ask questions one right after another (called “stacking”). A bad coach does not give the person a chance to answer anything until they have put out 2 or 3 questions. The coach should give ample time for the client to answer each individual question. In as much as possible we try to use the client’s language. If they say, I have been feeling like a fish out of water at work. We might start with something like well tell me a bit about what is it to feel like a fish out of water or when you say you feel like a fish out of water, what does that mean to you. The questions do not contain judgment. We want questions that we can ask freely, with no attachment to the answer. You want to ensure that people recognize that coaches are asking with genuine curiosity. It is very important that the client does not feel defensive or interrogated.</p>
+<p>Examples of powerful questions:</p>
+<blockquote>
+<p>What is the truth about this situation?</p>
+</blockquote>
+<blockquote>
+<p>What assumptions might we be making about this situation?</p>
+</blockquote>
+<blockquote>
+<p>What would you guess is your boss’s perspective on your work?</p>
+</blockquote>
+<blockquote>
+<p>What values do you think your team member will bring to this conversation?</p>
+</blockquote>
+<blockquote>
+<p>What do you (see, hear, feel, sense)?</p>
+</blockquote>
+<blockquote>
+<p>Where are you right now?</p>
+</blockquote>
+<blockquote>
+<p>Where to you want to go from here?</p>
+</blockquote>
+<blockquote>
+<p>What makes that important to you now?</p>
+</blockquote>
+<blockquote>
+<p>What would happen if you took ownership of this?</p>
+</blockquote>
+<blockquote>
+<p>What do you think is behind that?</p>
+</blockquote>
+<blockquote>
+<p>Wow, your voice picked up in speed and volume, where is that coming from?</p>
+</blockquote>
+<p>When you start a question with “can you” there is a chance that the answer could be yes or no.</p>
+<blockquote>
+<p>Can you think of a situation that may be coming up in the near future where you would like to say no and you feel like you might have trouble with that?</p>
+</blockquote>
+<blockquote>
+<p>Can you think of some ways to say no that would still allow you to express love and fairness and your other strengths?</p>
+</blockquote>
+<p>Better to rephrase it as:</p>
+<blockquote>
+<p>When you think about a situation that may be coming up, wherein it may be difficult to say no, what did you know now that you didn’t know earlier or how might you approach it differently?</p>
+</blockquote>
+<blockquote>
+<p>My intuition tells me that you could come up with a way to say no, that would still allow you to feel like a fair or kind or loving person. What do you think of that or what is your response to that?</p>
+</blockquote>
+<p>Why do these kinds of questions work so well in the coaching process? Because they:</p>
+<ul>
+<li>Invite the client to look at new possibilities from within themselves;</li>
+<li>Encourage the client to see the coach as collaborator and not expert;</li>
+<li>Show clients that they are special and respected</li>
+<li>Build trust by creating an openness to exploring ideas outside their “boxes” with a playful
+attitude;</li>
+<li>Invite clients to be introspective and creative;</li>
+<li>Demonstrate the curiosity and nonjudgmental attitude of the coach; and</li>
+<li>Encourage the coach to remain open-minded and to see the client as a “whole, resourceful,
+creative” being.</li>
+</ul>
+<p>Powerful questions can be jarring. It is best to forewarn your clients, well in advance, that you are about to ask a jarring question. Example:</p>
+<blockquote>
+<p>Prefacing jarring questions by saing, “This might feel a little bit like a 2x4 between the eyes.”</p>
+</blockquote>
+<p>Sometimes powerful questions and evoke strong emotions. You should acknowledge the emotions - I see that this is bringing up a lot of emotion for you. Honor the fact that the person is experiencing it, and absolutely give them the space to experience it. Do not to rush them through it. It may get to the point that the person is so overcome that coaching would no longer be effective. Always ask if the client is okay to continue. If not, then make sure the person is okay and say that you will connect again next time. When you have developed a strong enough connect with the person, you may also pause and ask if there is anything they would like to share about it.</p>
+<p>Sometimes the powerful question can lead a client to shut down and give you an I don’t know. The best question is something like-</p>
+<blockquote>
+<p>Well, what would you guess, what would your best guess be, or what do you think might work or think might be possible.</p>
+</blockquote>
+<p><b>Why</b> has the potential to open up a lot of exploration but we tend not to use it. I use it in very specific circumstances because if you ask something like “why do you think you struggle with that” it sounds like blaming. The exception would be like:</p>
+<blockquote>
+<p>Why might it be okay for this to happen?</p>
+</blockquote>
+</div>
+<div id="inquiry" class="section level2">
+<h2><span class="header-section-number">5.2</span> Inquiry</h2>
+<p style="text-align: right; font-size: 8pt; ">
+<i><code>Irene Nizzero, MCP 236, March 11, 2020 @ 4 PM - 5:30 PM</code></i>
+</p>
+<p>This term refers to a powerful question given at the end of the session that is intended to deepen the client’s learning and provoke further reflection. The intention is for the client to use the end of the coaching session to open up deeper inquiry into the client’s situation until the next coaching session. You use inquiry in a situation when a theme keeps coming up or there is something deep and powerful that the coach would like the client to reflect on between sessions. Basically what happens in an inquiry situation is at the end of a coaching session, you might say my gut or intuition is telling me that this whole topic is loaded for you. What I would like to do is propose an activity for you to consider between now and our next session and for you to do some reflection on. Ideally, it would include the client spending some time doing some actually writing or journaling about it.</p>
+<blockquote>
+<p>Out of today’s session, we might come up with something like “who do you have to be to be someone who can say no without worry or retribution or who do you know who has the power to say no well and what is important about who they are and what qualities stand out about that person.” Then ask them to journal/write about the question.</p>
+</blockquote>
+<p>This “inquiry” kind of powerful question:
++ Is intended to help the client explore something in depth and create awareness;
++ Involves introspection and reflection without an expectation of “being answered”
++ Is powerful because it integrates coaching into the client’s daily life; and
++ May involve activities between sessions such as journaling, drawing pictures, talking with family or friends, etc.</p>
+<p>When you provide an inquiry that is accepted by the client, always ask the client about it during the next session. You can even ask the client to share any learning they get from it prior to your next coaching call.</p>
+<p>Examples of this type of question are:</p>
+<blockquote>
+<p>“What is it that you are tolerating?”</p>
+</blockquote>
+<blockquote>
+<p>“What is it to be undauntable?”</p>
+</blockquote>
+<blockquote>
+<p>“What is the challenge?”</p>
+</blockquote>
+<p>Please remember that because this is a suggestion made by the coach, ask permission of the client to offer this kind of action item; if the client says no, accept their response without defensiveness. It is entirely up to the client to even accept the activity and be willing to do it. Then it is up to the client to carve out how much time.</p>
+</div>
+<div id="listening" class="section level2">
+<h2><span class="header-section-number">5.3</span> Listening</h2>
+<p style="text-align: right; font-size: 8pt; ">
+<i><code>Irene Nizzero, MCP 236, March 11, 2020 @ 4 PM - 5:30 PM</code></i>
+</p>
+<p>As a coach, you make the most impact when the client feels heard.</p>
+<ul>
+<li><p><b>Level 1:</b> we listen while formulating another answer, question or something else. Clients are mostly in this level.</p></li>
+<li><p><b>Level 2:</b> we are focused on what we have heard. We are hearing and then responding, and not thinking while the client is speaking.</p></li>
+<li><p><b>Level 3:</b> the coach is able to hear what is <b>NOT</b> being said. They are so absorbed in what the client is saying that they are able to notice changes of expression, heightened energy, or faster paced speech, louder speech, or more animated speech and perhaps include this in their dialogue.</p></li>
+</ul>
+<p>Coaches usually start the session in Level 1, slip into Level 2 and 3, and then periodically back into Level 1. Ideally, we want to spend as much time in Level 2 and 3. Powerful questions, giving the client the space that they need, and being fully present with a client doesn’t happen in Level 1 listening. Coaching only occurs in levels 2 and 3. Usually the most powerful coaching, the strongest connection between coach and client, occurs when the coach spends as much time as possible in Level 3. We have to, occasionally slip back into Level 1, because we have to do other practical things. We have to keep an eye on the time; we have to make sure that we are moving forward in the conversation; we need to be clear that we stayed with the clients agenda. The client can feel the shift of energy on a call when the coach goes into Level 1. The client will sometimes ask “Are you still there?” because they feel the disconnect. Always own up to losing focus; it will build trust.</p>
+</div>
+<div id="inner-critic" class="section level2">
+<h2><span class="header-section-number">5.4</span> Inner Critic</h2>
+<p style="text-align: right; font-size: 8pt; ">
+<i><code>Irene Nizzero, MCP 236, March 18, 2020 @ 4 PM - 5:30 PM</code></i>
+</p>
+<p>There are many ways to describe it, one is, it is an internal dialogue that you sometimes get, often in advance of or as you are approaching challenging situations. Everyone on the planet has an inner critic to some extent. The people that you see walking around who are very confident, solid, intentional, calm, unflustered, full of themselves have just learned to manage their inner critic very well. It’s the reason we get nervous. Sometimes it comes as an afterthought. I it is usually not helpful, and not necessarily what you need at that moment.</p>
+<p>The purpose of the inner critic, at its core is to try and prevent you from falling on your face. It doesn’t want you to blow it like a fool. We want to be clear with clients that at it’s core the Inner Critic has usually good intentions but at the same time the inner critic is quite often a liar. Hints that the Inner Critic is coming up includes anything that speaks to doubt, insecurity, inability or lacking capacity to do something.</p>
+<ul>
+<li><i>Examples of Inner Critic comments</i></li>
+</ul>
+<blockquote>
+<p>I am ill equipped to make the right decisions</p>
+</blockquote>
+<blockquote>
+<p>What were you thinking?</p>
+</blockquote>
+<blockquote>
+<p>I can’t do this.</p>
+</blockquote>
+<blockquote>
+<p>I don’t know if I am good enough.</p>
+</blockquote>
+<p><b> 1) Start with am I hearing an Inner Critic </b></p>
+<blockquote>
+<p>This feeling of not being good enough or this feeling of being an imposter sounds like an Inner Critic to me.</p>
+</blockquote>
+<blockquote>
+<p>What I am hearing is a variation on I am not enough or I am not good enough.</p>
+</blockquote>
+<p><b> 2) Always follow up with, what do you make of that? </b></p>
+<blockquote>
+<p>Do I hear an inner critic?</p>
+</blockquote>
+<p>You almost always do.</p>
+<p><b> 3) Then you have a few options. </b></p>
+<blockquote>
+<p>How would you like to handle your inner critic?</p>
+</blockquote>
+<blockquote>
+<p>What do you want to do with this inner critic right now?</p>
+</blockquote>
+<blockquote>
+<p>What would you like to do to contain that inner critic right now?</p>
+</blockquote>
+<p>If they don’t know, there are a number of different ways to tackle this:</p>
+<blockquote>
+<p>I have a few ideas, would it be okay if I offered one of them?</p>
+</blockquote>
+<ul>
+<li><p>Ask, what is the truth?</p></li>
+<li><p>Desccribe what inner critic looks like.</p></li>
+</ul>
+<p>Oftentimes, silencing the inner critic is easier if the client helps to personalize their own inner critic. Some people see them as an animal or a mischievous little child, even an overly critical parent! The Inner Critic can be the voice of someone was or is important to you or it could be you letting fears or insecurities surface.</p>
+<ul>
+<li>Draw it out or find a picture on the internet. Find the thickest possible book you have on your shelf and and take that piece of paper and stick it into a book. So that the inner critic is otherwise occupied.</li>
+</ul>
+<p>If we are talking about an action that they are planning to take. Then, I will invite them to find an image before they start their action. It is not an inquiry because you are not asking them to write, think, or reflect on it. You are asking them to put the inner critic out of the way.</p>
+<ul>
+<li>Inner Critic –&gt; ally</li>
+</ul>
+<p>Explain that the Inner Critic is trying to protect you and trying to prevent you from falling on your face. But you have the skills, so what if you were to say to the inner critic instead I don’t need an inner critic right now, I need an ally.</p>
+<blockquote>
+<p>Instead of an inner critic who would you rather have in your head?</p>
+</blockquote>
+<blockquote>
+<p>What would an ally be saying to you?</p>
+</blockquote>
+<blockquote>
+<p>What would that person be saying?</p>
+</blockquote>
+<p>Once you develop a bit of a repertoire for dealing with the Inner Critic, whether it is asking what is the truth, getting them to create a visual or tangible representation, putting it away somewhere, or asking them what would you rather have in your head instead of an inner critic’s voice. You can use your client’s favorite way of dealing with their inner critic.</p>
+<blockquote>
+<p>How would you like to deal with that inner critic?</p>
+</blockquote>
+<p>There are options galore that come over time working with someone.</p>
+</div>
+<div id="intuition" class="section level2">
+<h2><span class="header-section-number">5.5</span> Intuition</h2>
+<p style="text-align: right; font-size: 8pt; ">
+<i><code>Irene Nizzero, MCP 236, March 18, 2020 @ 4 PM - 5:30 PM</code></i>
+</p>
+<p>Intuition can help clients move into action or deepen their learning and awareness. Intuition is the “sense” about something unspoken. Intuition is the inner knowing, the sixth sense as a result of active, deep listening. It is the expression of observation rather than a conclusion.</p>
+<p>Coaches take their intuition from the clients’:</p>
+<ul>
+<li>energy</li>
+<li>tone</li>
+<li>mood</li>
+<li>spoken words</li>
+<li>unspoken words</li>
+</ul>
+<p>Level 3 listening provides coaches access to their intuition and allows them to offer insights to their clients. Intuition is a gut feeling and a tool for awareness building. It is connected to deep listening, because intuition happens when you are listening between the words and inferring from what they are saying that there is something deeper going on.It is not about what words you are hearing rather it may be related to body language, expressions, or something else that you are picking up other than what the words are conveying to you. It is not based on hard evidence. It goes beyong articulating or mirroring back what the client has said, you add something that you are perceiving NOT from the clients words.</p>
+<p>You cannot access intuition without using Level 3, or at the very least Level 2 listening.</p>
+<p><b>1) My intuition is telling me …</b></p>
+<blockquote>
+<p>I have this sense that …</p>
+</blockquote>
+<blockquote>
+<p>I have a feeling that …</p>
+</blockquote>
+<p><b>2) … how does that land with you?</b></p>
+<blockquote>
+<p>… what do you think about that?</p>
+</blockquote>
+<blockquote>
+<p>… how does that resonate with you?</p>
+</blockquote>
+<blockquote>
+<p>… what do you make of that?</p>
+</blockquote>
+<p><b>You are allowed to be wrong.</b> Be prepared to offer it but also be prepared to be wrong. The client may well say- well I am not really feeling guilty as much as I am making decisions or taking actions. I am feeling more inadequate, or it’s more about fear, or I have more of an imposter syndrome at play here. Regardless of where they go, they will give you more to work with. Even if you are wrong, chances are it will lead to further discovery and that is the point.</p>
+<p><b>3) Explore the situation.</b></p>
+<p><b>4) Ask questions about how to change course.</b></p>
+<p>Using intuitions can lend to very powerful, potentially powerful insights. Then you can ask questions like:</p>
+<blockquote>
+<p>What does that awareness mean to you now?</p>
+</blockquote>
+<p style="text-align: right; font-size: 8pt; ">
+<i><code>Irene Nizzero, MCP 236, March 11, 2020 @ 4 PM - 5:30 PM</code></i>
+</p>
+<p>It is a bit of a cheat. It is the little give that we have in the coaching dynamic, but has to still came from what the client volunteers and has to help advance the conversation.</p>
+</div>
+<div id="metaphor" class="section level2">
+<h2><span class="header-section-number">5.6</span> Metaphor</h2>
+<p style="text-align: right; font-size: 8pt; ">
+<i><code>Irene Nizzero, MCP 236, March 18, 2020 @ 4 PM - 5:30 PM</code></i>
+</p>
+<p>A metaphor is also considered an analogy and usually involves the word “like.” You are basically creating an image, an idea, a concept that maybe captures everything that you have been hearing. Many times, the use of metaphor can deepen the client’s understanding of themselves and their situation.</p>
+<ul>
+<li><b>Sometimes we offer them.</b></li>
+</ul>
+<p>If you sense a metaphor that might work for your client, simply share it without explanation or permission; providing an explanation puts the coach into Level I listening!</p>
+<blockquote>
+<p>Does it feel like …</p>
+</blockquote>
+<blockquote>
+<p>I am getting an image of …</p>
+</blockquote>
+<ul>
+<li><i>Examples of Metaphors</i></li>
+</ul>
+<blockquote>
+<p>Life is like a box of chocolate you never know what you are going to get - Forrest Gump.</p>
+</blockquote>
+<blockquote>
+<p>What I am hearing is making me think of an image of a tsunami and you are struggling to somehow get to the surface.</p>
+</blockquote>
+<blockquote>
+<p>What I am hearing it is like a desert storm and things were swirling around you.</p>
+</blockquote>
+<blockquote>
+<p>It’s like golf. The harder you swing doesn’t mean the ball goes further. Sometimes when you swing easier the ball goes farther.</p>
+</blockquote>
+<blockquote>
+<p>Bamboo takes ~13 years or 7 years for it to sprout and then grows 15 ft. in the first month. There is all this stuff happening that you don’t see.</p>
+</blockquote>
+<blockquote>
+<p>Does it feel a little like you are on a sinking ship.</p>
+</blockquote>
+<blockquote>
+<p>Lost at sea with a ship with no rudder, no compass, no steering mechanism.</p>
+</blockquote>
+<blockquote>
+<p>It is like I am in a furniture store and someone has turned off all the lights. I am trying to find my way through and I keep bumping into things but do not have any help.</p>
+</blockquote>
+<blockquote>
+<p>Tree analogy for relationships, as long as you have roots you won’t be carried away. Others include getting the ripe fruit, nurturing the tree the right way with positivity.</p>
+</blockquote>
+<blockquote>
+<p>Bandaid instead of dealing with the underlying issue.</p>
+</blockquote>
+<blockquote>
+<p>Nailing your foot to a sinking ship.</p>
+</blockquote>
+<blockquote>
+<p>Ride the wave. I have to get on it. I don’t know where the wave is going to go. I sort of know the direction and I have to go with it and pay attention because you are going to go under water if you don’t.</p>
+</blockquote>
+<ul>
+<li><b>Sometimes we ask for them.</b></li>
+</ul>
+<blockquote>
+<p>Is there a metaphor that you can think of that would apply here?</p>
+</blockquote>
+<p>If you need to, you can certainly explain what you mean by that. Idea is you are going to either offer it, or ask for one, preferably asking for one and so many times clients will offer it even without you asking.</p>
+<ul>
+<li><b>Other times we have to be listening close enough for them.</b></li>
+</ul>
+<p>Somewhere along the way, they may say something like I am just juggling so much right now. It is not exactly a metaphor but it does lend itself to one. It could be something like I just feel so lost right now. That opens up all sorts of possibilities and so in as much as possible you are going to listen for the client’s tips, and hints at what a metaphor would be like. Use the client’s metaphor whenever they offer them.</p>
+<ul>
+<li><p><b>Always ask, how does that land with you?</b></p></li>
+<li><p><b>Explore the situation.</b></p></li>
+</ul>
+<p>You start to explore more about their situation based off of that metaphor.</p>
+<ul>
+<li><b>Ask questions about how to change course.</b></li>
+</ul>
+<blockquote>
+<p>What is the thing that is going to help you change your course</p>
+</blockquote>
+<blockquote>
+<p>What is the first thing you need to do to change that?</p>
+</blockquote>
+<blockquote>
+<p>What do you want to do with this and to change this situation?</p>
+</blockquote>
+<p>A metaphor isn’t giving advice, it’s just putting more context around a situation and then you are also exploring with them how that metaphor can play out. In a manner of speaking it kind of detaches the client from it - from the emotion and they can see it from a 3rd party perspective.</p>
+</div>
+<div id="coaching-presence" class="section level2">
+<h2><span class="header-section-number">5.7</span> Coaching Presence</h2>
+<p style="text-align: right; font-size: 8pt; ">
+<i><code>Irene Nizzero, MCP 236, March 25, 2020 @ 4 PM - 5:30 PM</code></i>
+</p>
+<p>As explained by the ICF, coaching presence is the ability to be fully conscious and create spontaneous relationship with the client, employing a style that is open, flexible and confident. Coaching presence is the outcome of the coach connecting as deeply as possible as with the client. This happens as a result of listening and being sensitive to emotion, energy levels, behaviors that you might see. There all sorts of body language instances that we can call out and actually perhaps question depending on where the conversation is going. It’s that whole thing about you being so fully present with your client, that your house or office or wherever you are could crumble around you, but you wouldn’t notice because you are totally with that person, that is real coaching presence.</p>
+<p>One of the key factors to achieving a great working relationship with clients is developing trust, and coaching presence really goes a long way to developing trust. However it is more than just listening, it goes to your responses being very attune with what your client needs at the time. Coaching presence is the ability to be fully conscious and create a spontaneous relationship with the client employing a style that is <b>open, flexible, and confident.</b></p>
+<p>Confidence comes with practice. Flexibility is that riding the wave. It is like man I have to absolutely go where this wave is taking me, no preconceived notions, and being totally detached from any set plan or expectation of where you are going to get to.</p>
+<p>You are letting this person be who they are and you are just walking along with that.</p>
+<p style="text-align: left; font-size: 16pt; ">
+<u><i>Features of effective coaching presence include</i></u>
+</p>
+<ul>
+<li>Being present and flexible during the coaching process - “dancing in the moment.”</li>
+<li>Accessing your own intuition and trusting your inner knowing.</li>
+<li>Being open to not knowing and takes risks.</li>
+<li>Seeing many ways to work with the client and choosing in the moment what is most effective.</li>
+<li>Using humor effectively to create lightness and energy.</li>
+<li>Confidently shifting perspectives and experimenting with new possibilities for own action.</li>
+<li>Demonstrating confidence in working with, and not being overpowered by, the client’s emotions.</li>
+</ul>
+<p>Coaching presence is at its best when the coach and client:
++ Enter a state of flow and experience feelings of timelessness
++ <i>Flow</i> by Mihaly Csikszentmihalyi
++ Sense the dynamics of flowing energy
++ Have clarity and their minds are clear of all distractions
++ Create this environment collaboratively</p>
+<p>You want to be mentally present for session. Think of ways to mentally and emotionally prepare for a session, when you are about to start coaching someone. Lots of people talk about getting centered, clearing their own minds, as the coaches. Anything big, whatever it may be, gets put on a shelf and put away for the time being. It could be doing some mindfulness practice, some deep breathing, mediation, whatever your practice might be to help you do that, that is a really strongly recommended approach to fully engage and connect with your client and be there for that person in the session.</p>
+<p style="text-align: left; font-size: 16pt; ">
+<u><i>Being Receptive to Energy, Emotion, &amp; Behavior</i></u>
+</p>
+<p>The concept of being receptive to energy, so energy, emotion, behavior, those sorts of things and we call it sometimes tracking energy or picking up on energy. Behavior can be what you observe or what they describe to you that they did.</p>
+<p>Be attentive to changes – shifts – in a client’s energy, their emotional expressions, and any changes in behavior that they share with you. Remember that as a coach, you are a mirror and state simply what you hear or see or notice. Offer your observations without judgement and ask the client to confirm what you are hearing or seeing. This kind of coaching creates a sense of respect and safety which leads to coaching presence where transformation becomes possible for the client.</p>
+<blockquote>
+<p>I hear a catch in your voice. What are you feeling right now?</p>
+</blockquote>
+<blockquote>
+<p>The pace of your speaking just picked up. You sound more energetic. What caused this change?</p>
+</blockquote>
+<blockquote>
+<p>Wow! That’s a very different behavior for you. Tell me more about that, what is behind that, or what is going on there do you think?</p>
+</blockquote>
+<p style="text-align: left; font-size: 16pt; ">
+<u><i>Understanding the Power of Silence</i></u>
+</p>
+<p>The opposite of offering observations is not saying anything at all. Being silent is a crucial part of deep listening, as it allows the client the space and time to think and process thoughts. Silence, this also really denotes a deep respect for your client. In the sense that you are kind of giving them the space to process things at their own pace. To let them come to things as they need to without the feeling that you have to rush things along.</p>
+<blockquote>
+<p>Clients should talk about 85% of the time, part of the 85% can be silence if the client needs time to process and answer questions.</p>
+</blockquote>
+<blockquote>
+<p>Coaches only 15%, part of the 15% can be silence if the coach asks for some to come up with a question.</p>
+</blockquote>
+<ul>
+<li><p>Markers are the behavioral signals, that a coach is applying this competency. There is actually a marker that speaks to a coach allowing silence.</p></li>
+<li><p>It is NOT at all in appropriate to say I am going to need a second to think where I want to go next as the coach.</p></li>
+</ul>
+<p style="text-align: left; font-size: 16pt; ">
+<u><i>How to Develop Effective Coaching Presence</i></u>
+</p>
+<ul>
+<li>Take risks
+<ul>
+<li>Ask hard questions</li>
+</ul>
+<blockquote>
+<p>Who really owns that decision?</p>
+</blockquote>
+<blockquote>
+<p>What is your responsibility here?</p>
+</blockquote>
+<blockquote>
+<p>What if they disagree with what you think? You don’t think it is their responsibility but they do. Again, I might be going with my gut. I am going to ask the question because I think that might reveal something telling. I could be wrong, in which case I say okay great and then move on from there. There is no attachment to me being right. I took a shot on that one, I was wrong next question.</p>
+</blockquote>
+<ul>
+<li>Pull client out of comfort zone
++Challenge client’s inner critic</li>
+</ul></li>
+<li>Create safety
+<ul>
+<li>Show respect</li>
+<li>Ask permission</li>
+</ul>
+<blockquote>
+<p>I have a piece of information that might be helpful here. Would it be okay if I shared it with you. Or, I have something in mind that would be relevant here, would it be okay if I shared it with you? This is especially relevent when you have spcialty coaching training - health and wellneess, ADD, or Executive coaching.</p>
+</blockquote>
+<blockquote>
+<p>If it is something that you are offering your client, you always ask for permission. Leave it out there and it is completely up to them, when they do it, if they do it.</p>
+</blockquote>
+<blockquote>
+<p>The general rule with following up is - if they want to let you know they took what you offered they will tell you. You can ask but there is really no need to ask.</p>
+</blockquote>
+<ul>
+<li>Understand client’s values</li>
+</ul>
+<blockquote>
+<p>This is where trust comes in.</p>
+</blockquote></li>
+<li>Use humor
+<ul>
+<li>Let go of:
+<ul>
+<li>Control</li>
+<li>Expectations</li>
+<li>Assumptions</li>
+</ul>
+<blockquote>
+<p>Sometimes I think, if I ask this question this is what I am going to get. I love being wrong about that because then the client has really heard the question and processed it and that now probably gives us a whole other area to explore.</p>
+</blockquote></li>
+</ul></li>
+<li>Walk with the client through their struggle
+<ul>
+<li>Clarify client’s agenda</li>
+<li>Focus deeply on client’s agenda</li>
+</ul>
+<blockquote>
+<p>Okay well this is a little different from where we started the agenda are we changing the agenda, or how does this relate to the agenda that you shared towards the beginning.</p>
+</blockquote>
+<blockquote>
+<p>This is what you said you were looking for, where are we now. That helps the client also take stock on where you have gotten to.</p>
+</blockquote></li>
+</ul>
+<p style="text-align: left; font-size: 16pt; ">
+<u><i>Things to Avoid When Creating Coaching Prescence</i></u>
+</p>
+<ul>
+<li>Becoming a “sponge” for your client’s emotions</li>
+</ul>
+<blockquote>
+<p>You want to remain detached. Can’t be exhausting or grueling to take on everything your clients are feeling.</p>
+</blockquote>
+<ul>
+<li>Forgetting or dismissing or directing the client’s agenda</li>
+<li>Imposing your own values and judgements</li>
+<li>Relating your own personal experiences</li>
+</ul>
+<blockquote>
+<p>Sometimes after working with a client for a long time, they will ask have you ever had this happen to you. To ignore that or deflect it I think almost might be kind of rude. So I might then answer. But our experiences don’t matter, because what we are aiming for is focusing on the client and to help the client get to where they need to go.</p>
+</blockquote>
+<blockquote>
+<p>If ask what would you do, in the begining it is best to deflect. I would say, I think what is more important here is how we can help you arrive at what is going to work best for you.</p>
+</blockquote>
+</div>
+<div id="pillars-of-a-balanced-life" class="section level2">
+<h2><span class="header-section-number">5.8</span> Pillars of a Balanced Life</h2>
+<p style="text-align: right; font-size: 8pt; ">
+<i><code>Irene Nizzero, MCP 236, April 22, 2020 @ 4 PM - 5:30 PM</code></i>
+</p>
+<p>Sometimes clients clearly want better things for themselves and have a sense that there are things that they could be doing different, better, more thoroughly, but they don’t know what it is that they want to do. They feel like, I have all of these different areas that I want to improve and I don’t even know where to start. The, I don’t know where to start phrase is an ideal one to bring out the pillars.</p>
+<p><img src="_book/styleguide_files/figure-html/pillars.png" width="80%" style="display: block; margin: auto;" /></p>
+<p>You can have the client fill it out on their own outside of the session or you can do it together as a coaching session. In the span of an hour session, the pillars might be all that we cover on that particular day.</p>
+<blockquote>
+<p>Irene’s personal preference is to fill it out together. She will fill out her own copy for her records. Say, I have this great tool, if you are unsure about where you want to go next, and it will help you narrow down your priorities or atleast organize your priorities in such a way that you will get a good at a gland perspective on what really matters to you. It may provide direction of what you want to do next.</p>
+</blockquote>
+<ul>
+<li>Would that be of interest to you?</li>
+</ul>
+<p>Then, it is up to the client to decide.</p>
+<ol style="list-style-type: decimal">
+<li>The client rates themself, 0-10 or 1-10, in each pill of Life. With 1 being extremely dissatisfied and 10 being couldn’t ask for more. The person is essentially reflecting on every one of these pillars and ranking it on a scale of 1 to 10, where they sit currently.</li>
+<li><p>You may go through it and explain the labels or you may just let them sort of bounce around.</p>
+<blockquote>
+<p>Irene prefers to invite clients to start with whatever category speaks to them that they want to start with and if they don’t have preference then just work through it left to right and go column by column.</p>
+</blockquote></li>
+<li><p><b>Have the person imagine each pillar to be thermometer, with 10 at the top, and have them draw a line and also write the number that they are intending to reflect there.</b></p>
+<blockquote>
+<p>Affirm whatever rating they give.</p>
+</blockquote>
+<blockquote>
+<p><b>If they give themselves a 9 or 10, be sure and affirm
+them to being able to do that. Many people cannot give themselves that amount of
+credit!!</b></p>
+</blockquote></li>
+<li><p>Explain the columns</p>
+<blockquote>
+<p>This is according to the client and where they would like to be. Where they imagine a 10 to be and where they are relative to that.</p>
+</blockquote>
+<blockquote>
+<p>Spirtual includes anything the client does to ground themself, to center themself, bring peace or calm to their life. Any of those sort of practices and things such as yoga and meditation.</p>
+</blockquote>
+<blockquote>
+<p>Intimacy not only in a romantic relationship. Do they have a best friend in life ad how is that relationship going. Intimacy doesn’t have to only speak to physical intimacy.</p>
+</blockquote>
+<blockquote>
+<p>Home/office refers to their physical surroundings and their physical space. Are their home and or office meeting their needs. Is there something you would like to change in that area?</p>
+</blockquote>
+<blockquote>
+<p>Play and fun is something they do for the sheer pleasure of it.</p>
+</blockquote></li>
+<li><p>Pillars of Life can be brought out at any time.It could be well into the relationship and they just end up feeling stuck. They know there is more that they want to do they just don’t know how to move forward.</p></li>
+<li><p>The tool can be adapted and changed. You can put your own labels to it. Remember to give credit to Ben Dean, founder of MentorCoach. This is a great tool to use to help people to get a demo of what coaching can be like.</p>
+<blockquote>
+<p>The lowest number doesn’t necessarily equate to being the most important or critical area to work on right now for the client. Just be mindful that that is quite normal, understandable, and acceptable.</p>
+</blockquote></li>
+</ol>
+<p>In terms of that last column, Overall Life Satisfaction, Irene doesn’t include this column when she uses the tool.</p>
+<ol start="7" style="list-style-type: decimal">
+<li><p>Ask questions.</p>
+<ul>
+<li>What does success look and feel like for you in this area?</li>
+<li>What would make that a score of 10?</li>
+<li>What would a score of 10 look and feel like?</li>
+<li>How do you feel about your life as you look at that pillar?</li>
+<li>What would it take to increase your rating by ½ point?</li>
+<li>How could you make space for these changes?</li>
+<li>Can you affect the necessary changes on your own?</li>
+<li>What help and cooperation from others might you need?</li>
+<li>Is that something you can do?</li>
+<li>Is this something you want to commit to?</li>
+<li>How long with it take to get it done?</li>
+<li>How will you hold yourself accountable to complete it?</li>
+</ul></li>
+</ol>
+</div>
+<div id="championing" class="section level2">
+<h2><span class="header-section-number">5.9</span> Championing</h2>
+<p style="text-align: right; font-size: 8pt; ">
+<i><code>Irene Nizzero, MCP 236, April 29, 2020 @ 4 PM - 5:30 PM</code></i>
+</p>
+<p>Championing refers to a situation where you client is facing a gargantuan challenge or it is at least described that way by the client, and the coach cheers on their client on in that moment of challenge or difficulty or extraordinary pressure.</p>
+<blockquote>
+<p>For example, asking for a raise that was previously rejected, or being a keynote at a conference.</p>
+</blockquote>
+<ul>
+<li><b>Have the client imagine the coach physically being there with them and cheering them on.</b></li>
+</ul>
+<blockquote>
+<p>Tomorrow, while you are in this presentation to imagine me sitting there smiling and supporting you.</p>
+</blockquote>
+</div>
+<div id="celebrating" class="section level2">
+<h2><span class="header-section-number">5.10</span> Celebrating</h2>
+<p style="text-align: right; font-size: 8pt; ">
+<i><code>Irene Nizzero, MCP 236, April 29, 2020 @ 4 PM - 5:30 PM</code></i>
+</p>
+<p>As a coach, celebrate <b>everything!</b> Is is really important that people make a conscious effort to acknowledge their own successes, and often that can be with your help acknowledging them. Every single session when you are working with a client there is almost certainly going to be something to celebrate. Celebration is about recognizing what the client has done, while acknowledgement is about who the client is in their being. Remember, failure can represent significant progress
+forward and can be celebrated as well. Make a big deal of celebrating that with that person. <b>You can do it with them in the moment or you can invite them to think of a way to celebrate this particular milestone.</b></p>
+<ul>
+<li>Ideally there is <b>something physical about it.</b></li>
+</ul>
+<blockquote>
+<p>You might have them put their hand up to the computer and give them a high five</p>
+</blockquote>
+<blockquote>
+<p>You might have them do a happy dance around the room.</p>
+</blockquote>
+<blockquote>
+<p>My coach had me stand up as if I was stepping up on to an olympic podium and take a bow.</p>
+</blockquote>
+<ul>
+<li><p><b>Celebrate in the moment.</b> It is most effective delivered close in time to the accomplishment
+of the client and can become a part of your ongoing relationship with the client.</p></li>
+<li><p><b>If in the moment/physical is not possible,</b> it can be an <b>exchange between the two of you</b>. But it is also where you can say to the client, how will you celebrate that success and can I do it with you.</p></li>
+</ul>
+<blockquote>
+<p>I want to know when you are successful, what is your plan for celebrating that success. I am going to go down to a beach and I am going to bring a drink with me that has an umbrella in it and I am going to toast my success. Can you get someone to take a picture, or take a selfie and please send it to me so I can celebrate your success with you!</p>
+</blockquote>
+<p>One easy way to do this, is to make a big deal of any piece of progress if your client gives you an update at the start of your sessions.</p>
+<p>This is important because, as humans we focus on the negative. Our workplaces, lives, how we engage with each other, etc. are not geared towards positivity. We have to really be conscious of positivity to try and build it in. As a coach who is trying to encourage positive change, part of your role is to support your client and you might be one of the few people in that person’s life to ever say a positive thing to that individual. Doing this also helps to build more of that bond and trust with our client, acknowledges that you have heard them, and that you are recognizing their great effort.</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="basics.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="demos.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["coaching_info.pdf", "coaching_info.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

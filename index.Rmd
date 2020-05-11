@@ -1,0 +1,23 @@
+--- 
+title: "Executive Certificate: Coaching Positive Leaders <br><font size = 5'><i>Ji won Chang</i></font></br>"
+author: ""
+date: ""
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+description: ""
+---
+
+# Welcome
+
+This is a compliation of coaching principles, practices, and techniques I have learned during my Coaching Postive Leaders Course as part of the Executive Certificate. It will be constantly referenced to provide information to help clients in sessions.
+
+
+
+```{r echo = FALSE, include = FALSE}
+
+file.create("docs/.nojekyll")
+
+```

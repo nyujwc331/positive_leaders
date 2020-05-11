@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>6 Demos | MCP 236 Foundations Master Class  Ji won Chang</title>
+  <meta name="description" content="MCP 236 Foundations Master Class Ji won Chang" />
+  <meta name="generator" content="bookdown 0.18 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="6 Demos | MCP 236 Foundations Master Class  Ji won Chang" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="6 Demos | MCP 236 Foundations Master Class  Ji won Chang" />
+  
+  
+  
+
+<meta name="author" content="" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="tools.html"/>
+<link rel="next" href="the.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<script src="libs/htmlwidgets-1.5.1/htmlwidgets.js"></script>
+<link href="libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+<script src="libs/datatables-binding-0.9/datatables.js"></script>
+<link href="libs/dt-core-1.10.19/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="libs/dt-core-1.10.19/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="libs/dt-core-1.10.19/js/jquery.dataTables.min.js"></script>
+<link href="libs/crosstalk-1.0.0/css/crosstalk.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.0.0/js/crosstalk.min.js"></script>
+
+
+<style type="text/css">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Table of contents</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Welcome</a></li>
+<li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Intro</a><ul>
+<li class="chapter" data-level="2.1" data-path="intro.html"><a href="intro.html#definition"><i class="fa fa-check"></i><b>2.1</b> Definition</a></li>
+<li class="chapter" data-level="2.2" data-path="intro.html"><a href="intro.html#about"><i class="fa fa-check"></i><b>2.2</b> About</a></li>
+<li class="chapter" data-level="2.3" data-path="intro.html"><a href="intro.html#positive-psychology"><i class="fa fa-check"></i><b>2.3</b> Positive Psychology</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="onboarding.html"><a href="onboarding.html"><i class="fa fa-check"></i><b>3</b> Onboarding</a><ul>
+<li class="chapter" data-level="3.1" data-path="onboarding.html"><a href="onboarding.html#summary"><i class="fa fa-check"></i><b>3.1</b> Summary</a></li>
+<li class="chapter" data-level="3.2" data-path="onboarding.html"><a href="onboarding.html#intake"><i class="fa fa-check"></i><b>3.2</b> Intake</a></li>
+<li class="chapter" data-level="3.3" data-path="onboarding.html"><a href="onboarding.html#initial-call"><i class="fa fa-check"></i><b>3.3</b> Initial call</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="basics.html"><a href="basics.html"><i class="fa fa-check"></i><b>4</b> Basics</a><ul>
+<li class="chapter" data-level="4.1" data-path="basics.html"><a href="basics.html#structure"><i class="fa fa-check"></i><b>4.1</b> Structure</a></li>
+<li class="chapter" data-level="4.2" data-path="basics.html"><a href="basics.html#agenda"><i class="fa fa-check"></i><b>4.2</b> Agenda</a></li>
+<li class="chapter" data-level="4.3" data-path="basics.html"><a href="basics.html#narrowing"><i class="fa fa-check"></i><b>4.3</b> Narrowing</a></li>
+<li class="chapter" data-level="4.4" data-path="basics.html"><a href="basics.html#via"><i class="fa fa-check"></i><b>4.4</b> VIA</a></li>
+<li class="chapter" data-level="4.5" data-path="basics.html"><a href="basics.html#articulating"><i class="fa fa-check"></i><b>4.5</b> Articulating</a></li>
+<li class="chapter" data-level="4.6" data-path="basics.html"><a href="basics.html#acknowledgement"><i class="fa fa-check"></i><b>4.6</b> Acknowledgement</a></li>
+<li class="chapter" data-level="4.7" data-path="basics.html"><a href="basics.html#permission"><i class="fa fa-check"></i><b>4.7</b> Permission</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="tools.html"><a href="tools.html"><i class="fa fa-check"></i><b>5</b> Tools</a><ul>
+<li class="chapter" data-level="5.1" data-path="tools.html"><a href="tools.html#powerful-questions"><i class="fa fa-check"></i><b>5.1</b> Powerful questions</a></li>
+<li class="chapter" data-level="5.2" data-path="tools.html"><a href="tools.html#inquiry"><i class="fa fa-check"></i><b>5.2</b> Inquiry</a></li>
+<li class="chapter" data-level="5.3" data-path="tools.html"><a href="tools.html#listening"><i class="fa fa-check"></i><b>5.3</b> Listening</a></li>
+<li class="chapter" data-level="5.4" data-path="tools.html"><a href="tools.html#inner-critic"><i class="fa fa-check"></i><b>5.4</b> Inner Critic</a></li>
+<li class="chapter" data-level="5.5" data-path="tools.html"><a href="tools.html#intuition"><i class="fa fa-check"></i><b>5.5</b> Intuition</a></li>
+<li class="chapter" data-level="5.6" data-path="tools.html"><a href="tools.html#metaphor"><i class="fa fa-check"></i><b>5.6</b> Metaphor</a></li>
+<li class="chapter" data-level="5.7" data-path="tools.html"><a href="tools.html#coaching-presence"><i class="fa fa-check"></i><b>5.7</b> Coaching Presence</a></li>
+<li class="chapter" data-level="5.8" data-path="tools.html"><a href="tools.html#pillars-of-a-balanced-life"><i class="fa fa-check"></i><b>5.8</b> Pillars of a Balanced Life</a></li>
+<li class="chapter" data-level="5.9" data-path="tools.html"><a href="tools.html#championing"><i class="fa fa-check"></i><b>5.9</b> Championing</a></li>
+<li class="chapter" data-level="5.10" data-path="tools.html"><a href="tools.html#celebrating"><i class="fa fa-check"></i><b>5.10</b> Celebrating</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="demos.html"><a href="demos.html"><i class="fa fa-check"></i><b>6</b> Demos</a><ul>
+<li class="chapter" data-level="6.1" data-path="demos.html"><a href="demos.html#wia"><i class="fa fa-check"></i><b>6.1</b> WIA</a></li>
+<li class="chapter" data-level="6.2" data-path="demos.html"><a href="demos.html#inner-critic-1"><i class="fa fa-check"></i><b>6.2</b> Inner Critic</a></li>
+<li class="chapter" data-level="6.3" data-path="demos.html"><a href="demos.html#metaphor-1"><i class="fa fa-check"></i><b>6.3</b> Metaphor</a></li>
+<li class="chapter" data-level="6.4" data-path="demos.html"><a href="demos.html#coaching-presence-1"><i class="fa fa-check"></i><b>6.4</b> Coaching Presence</a></li>
+<li class="chapter" data-level="6.5" data-path="demos.html"><a href="demos.html#stages-of-change"><i class="fa fa-check"></i><b>6.5</b> Stages of Change</a></li>
+<li class="chapter" data-level="6.6" data-path="demos.html"><a href="demos.html#pillars-of-a-balanced-life-1"><i class="fa fa-check"></i><b>6.6</b> Pillars of a Balanced Life</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="the.html"><a href="the.html"><i class="fa fa-check"></i><b>7</b> Theories</a><ul>
+<li class="chapter" data-level="7.1" data-path="the.html"><a href="the.html#pagmalian-effect"><i class="fa fa-check"></i><b>7.1</b> Pagmalian Effect</a></li>
+<li class="chapter" data-level="7.2" data-path="the.html"><a href="the.html#parkinsons-law"><i class="fa fa-check"></i><b>7.2</b> Parkinson’s Law</a></li>
+<li class="chapter" data-level="7.3" data-path="the.html"><a href="the.html#eisenhower-matrix"><i class="fa fa-check"></i><b>7.3</b> Eisenhower Matrix</a></li>
+<li class="chapter" data-level="7.4" data-path="the.html"><a href="the.html#theories-of-change"><i class="fa fa-check"></i><b>7.4</b> Theories of Change</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="client.html"><a href="client.html"><i class="fa fa-check"></i><b>8</b> Clients</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">MCP 236 Foundations Master Class <br><font size = 5'><i>Ji won Chang</i></font></br></a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="demos" class="section level1">
+<h1><span class="header-section-number">6</span> Demos</h1>
+<p style="text-align: left; font-size: 16pt; ">
+<u><i>Examples of Powerful Questions</i></u>
+</p>
+<p style="text-align: right; font-size: 8pt; ">
+<i><code>Combined questions from all materials</code></i>
+</p>
+<ul>
+<li><p><b>Permission</b></p>
+<blockquote>
+<p>Do I have permission to coach you?</p>
+</blockquote></li>
+<li><p><b>Agenda</b></p>
+<blockquote>
+<p>What would you like to work on during our time together?</p>
+</blockquote>
+<blockquote>
+<p>What would you like to work on this evening?</p>
+</blockquote>
+<ul>
+<li><p><i>Narrowing</i></p>
+<blockquote>
+<p>How can we narrow that down to something that we can tackle in this session?</p>
+</blockquote>
+<blockquote>
+<p>What would be your ideal takeaway then out of this conversation?</p>
+</blockquote>
+<blockquote>
+<p>So you asked a question, can you put that into a statement form?</p>
+</blockquote></li>
+</ul></li>
+<li><p><b>Success identification</b></p>
+<blockquote>
+<p>If you could envision what success would look like in terms of this conversation, what would that look like and what would you come away with?</p>
+</blockquote>
+<blockquote>
+<p>At the end of our conversation, what will success look like for you?</p>
+</blockquote>
+<blockquote>
+<p>At the end of this conversation, if it is successful, if you have what?</p>
+</blockquote></li>
+<li><p><b>Powerful questions</b></p>
+<ul>
+<li><p><i>Raising Self-Awareness</i></p>
+<blockquote>
+<p>Can you say a little more about that for me?</p>
+</blockquote>
+<blockquote>
+<p>How does that resonate with you?</p>
+</blockquote>
+<blockquote>
+<p>Where do you think that behavior stems from?</p>
+</blockquote>
+<blockquote>
+<p>What do you think is getting in the way?</b></p>
+</blockquote>
+<blockquote>
+<p>What might be barriers here?</p>
+</blockquote>
+<blockquote>
+<p>Do you think that this might be related to an overuse/underuse of
+your strengths?</p>
+</blockquote>
+<blockquote>
+<p>What have you learned about yourself in this short conversation?</p>
+</blockquote>
+<blockquote>
+<p>How do you see this new information impacting your actions going forward?</p>
+</blockquote>
+<blockquote>
+<p>What is the truth about this situation?</p>
+</blockquote>
+<blockquote>
+<p>What assumptions might we be making about this situation?</p>
+</blockquote>
+<blockquote>
+<p>What would you guess is your boss’s perspective on your work?</p>
+</blockquote>
+<blockquote>
+<p>What values do you think your team member will bring to this conversation?</p>
+</blockquote>
+<blockquote>
+<p>What do you (see, hear, feel, sense)?</p>
+</blockquote>
+<blockquote>
+<p>Where are you right now?</p>
+</blockquote>
+<blockquote>
+<p>Where to you want to go from here?</p>
+</blockquote>
+<blockquote>
+<p>What makes that important to you now?</p>
+</blockquote>
+<blockquote>
+<p>What would happen if you took ownership of this?</p>
+</blockquote>
+<blockquote>
+<p>What do you think is behind that?</p>
+</blockquote>
+<blockquote>
+<p>Wow, your voice picked up in speed and volume, where is that coming from?</p>
+</blockquote>
+<blockquote>
+<p>What about this is important to you?</p>
+</blockquote>
+<blockquote>
+<p>How do you feel when it happens to you?</p>
+</blockquote>
+<blockquote>
+<p>What would it mean about you as a person if you could freely do this?</p>
+</blockquote>
+<blockquote>
+<p>What are the circumstances where you think it would be appropriate to do this?</p>
+</blockquote>
+<blockquote>
+<p>How would you solve the challenge for someone else?</p>
+</blockquote>
+<blockquote>
+<p>If you could do this, what would your life look like?</p>
+</blockquote>
+<blockquote>
+<p>If you were to do this how would others react to your response?</p>
+</blockquote>
+<blockquote>
+<p>What have you learned about yourself in this conversation?</p>
+</blockquote>
+<blockquote>
+<p>What makes this challenging for you?</p>
+</blockquote>
+<blockquote>
+<p>What makes this the thing to talk about today?</p>
+</blockquote>
+<blockquote>
+<p>Why is this important to you?</p>
+</blockquote>
+<blockquote>
+<p>What do you need to do to get there?</p>
+</blockquote>
+<blockquote>
+<p>What would that look like?</p>
+</blockquote>
+<blockquote>
+<p>What does that awareness mean to you now?</p>
+</blockquote>
+<blockquote>
+<p>What would that look like in that situation?</p>
+</blockquote>
+<blockquote>
+<p>When you are in that sort of a situation what is the thing that is going to help you change your course?</p>
+</blockquote>
+<blockquote>
+<p>How does that land with you?</p>
+</blockquote>
+<blockquote>
+<p>What is your thought about that?</p>
+</blockquote>
+<blockquote>
+<p>What would you say you have learned about yourself in this short little time that we have had this conversation?</p>
+</blockquote></li>
+</ul>
+<blockquote>
+<p>What actions might that lead you to going forward, that new awareness?</p>
+</blockquote>
+<ul>
+<li><p><i>Action</i></p>
+<blockquote>
+<p>Is there an actual action or something that you could do?</p>
+</blockquote>
+<blockquote>
+<p>Which of your top 5 strengths could help with this situation?</p>
+</blockquote>
+<blockquote>
+<p>Is there another strengths you can use to help you with this and what that might look like?</p>
+</blockquote>
+<blockquote>
+<p>Can you somehow find a new way to use a strength?</p>
+</blockquote>
+<blockquote>
+<p>Can the use of a strength help regulate another strength or lesser strength?</p>
+</blockquote>
+<blockquote>
+<p>How will that impact your next steps, that awareness that you have come to?</p>
+</blockquote>
+<blockquote>
+<p>What do you have to say no to for yourself by not changing this behavior?</p>
+</blockquote>
+<blockquote>
+<p>What are you saying yes to by learning to do this?</p>
+</blockquote>
+<blockquote>
+<p>What happens if you change nothing?</p>
+</blockquote>
+<blockquote>
+<p>What happens if you do nothing about this?</p>
+</blockquote>
+<blockquote>
+<p>What is the first thing you need to do to change that?</p>
+</blockquote>
+<blockquote>
+<p>What do you want to do with this and to change this situation?</p>
+</blockquote></li>
+</ul></li>
+<li><p><b>Agenda check-in</b></p>
+<blockquote>
+<p>How are we at achieving you agenda for today?</p>
+</blockquote>
+<blockquote>
+<p>Is this what you would like to talk about at this point?</p>
+</blockquote>
+<blockquote>
+<p>Are we changing the agenda then, is that what I am hearing you say?</p>
+</blockquote></li>
+<li><p><b>Accountability</b></p>
+<blockquote>
+<p>What form of accountability would you like around this?</p>
+</blockquote>
+<blockquote>
+<p>How would you like to keep yourself accountable?</p>
+</blockquote>
+<blockquote>
+<p>Would it help to spend time talking about accountability at this point?</p>
+</blockquote>
+<blockquote>
+<p>We never assume that we are going to keep clients accountable. We empower clients to keep themselves accountable. We invite them to consider what they would like their accountability would look like or what form of accountability if any would you like to talk about. You will be expected though to do it at the end of the session. This is one of the things you can kind of flex on as you get into private practice and you are past certification. But it is good practice to get into asking for accountability at the end of every session.</p>
+</blockquote></li>
+<li><p><b>Wrap up</b></p>
+<blockquote>
+<p>Did you get what you needed today?</b></p>
+</blockquote>
+<blockquote>
+<p>How did we do at accomplishing the agenda you brought to today’s session?</b></p>
+</blockquote></li>
+</ul>
+<div id="wia" class="section level2">
+<h2><span class="header-section-number">6.1</span> WIA</h2>
+<p style="text-align: right; font-size: 8pt; ">
+<i><code>Irene Nizzero, MCP 236, March 4, 2020 @ 4 PM - 5:30 PM</code></i>
+</p>
+<ul>
+<li><b>Do you mind sharing your top 5 strengths?</b></li>
+</ul>
+<blockquote>
+<p>Comment on them and how they are unique or interesting. Thank the person for sharing.</p>
+</blockquote>
+<ul>
+<li><b>Any reactions to the results?</b></li>
+</ul>
+<blockquote>
+<p>Did they sound like you, not like you, were you surprised by any of the top strengths, or how they were rank ordered? Did you have the experience of this got me?</p>
+</blockquote>
+<ul>
+<li><b>If not, what would have been different?</b></li>
+</ul>
+<blockquote>
+<p>Explanation for when people think they should have different strengths in their top 5. The top 5 signature strengths are our default behaviors or patterns. You can consider all 5 your top 1, and they can be juggled in any way and are consider interchangeable. The rest of your strengths come in clusters, and when they come in at the same value they are list aphabetically. Generally speaking 1 to 10 stay fairly stable, but something might slip from 3 to 7 or creep up from 6 to 4. However, you are not likely to see a lot of movement, unless there is a concerted effort to make some changes in your lower strengths.</p>
+</blockquote>
+<blockquote>
+<p>Close race</p>
+</blockquote>
+<blockquote>
+<p>Recommend using a Success/Strengths Journal</p>
+</blockquote>
+<blockquote>
+<p>The goal is NOT to increase the lower strengths or lesser strengths. It is to put yourself into a position where you use your top strengths more thus leading to more engagement/fulfillment in your life. None of the strengths are weaknesses. You can spend all kinds of time trying to work on those lower strengths if you want. However, if you were to spend as much time increasing or focusing on your default strengths, you would actually get more bang for your buck. You would yield better, enduring, and more impactful results if you focus on your strengths. They are your default, who you naturally are. It is okay to have lower strengths, you can’t be good at everything.</p>
+</blockquote>
+<ul>
+<li><p><b>Do you think that this might be related to an overuse/underuse of your strengths?</b></p></li>
+<li><p><b>Which of your top 5 strengths could help with this situation?</b></p></li>
+</ul>
+<blockquote>
+<p>Well, how could kindness factor in here, or how could your strength of kindness be of value in this situation. I might pick one, but generally we leave that to the client. More generally we ask which of your top 5 strengths could add something here or make a difference.</p>
+</blockquote>
+<ul>
+<li><p><b>Can you somehow find a new way to use a strength?</b></p></li>
+<li><p><b>Can the use of a strength help regulate another strength or lesser strength?</b></p></li>
+</ul>
+</div>
+<div id="inner-critic-1" class="section level2">
+<h2><span class="header-section-number">6.2</span> Inner Critic</h2>
+<p style="text-align: right; font-size: 8pt; ">
+<i><code>Irene Nizzero, MCP 236, March 18, 2020 @ 4 PM - 5:30 PM</code></i>
+</p>
+<ul>
+<li><p><b>What gets in the way, do you think, of managing your Inner Critic?</b></p></li>
+<li><p><b>What would you say to your inner critic?</b></p></li>
+</ul>
+</div>
+<div id="metaphor-1" class="section level2">
+<h2><span class="header-section-number">6.3</span> Metaphor</h2>
+<p style="text-align: right; font-size: 8pt; ">
+<i><code>Irene Nizzero, MCP 236, March 18, 2020 @ 4 PM - 5:30 PM</code></i>
+</p>
+<ul>
+<li><b>Maybe you want to explain your analogy better, I have the sense of it, but I would love to hear you express what this feels like. </b></li>
+</ul>
+</div>
+<div id="coaching-presence-1" class="section level2">
+<h2><span class="header-section-number">6.4</span> Coaching Presence</h2>
+<p style="text-align: right; font-size: 8pt; ">
+<i><code>Irene Nizzero, MCP 236, March 25, 2020 @ 4 PM - 5:30 PM</code></i>
+</p>
+<ul>
+<li><p><b>I am feeling as though, in a sense that those are two different things and I am going to request that you if you could choose just one of them for the sake of tonight’s demo that you will focus on just the 1 either your response or his interruption of you.</b></p></li>
+<li><p><b>And so the challenge there is when you are stating something in the negative, I want to not interrupt him, the issue that we are challenged by is ever again, so what is the end point, how will we know when we have gotten there?</b></p></li>
+<li><p><b>And what makes this important to you at this moment?</b></p></li>
+<li><p><b>What will success look like at the end of our conversation?</b></p></li>
+<li><p><b>What might be getting in the way of you being able to do this so far?</b></p></li>
+<li><p><b>So, when you say that I won’t be heard, say more about that.</b></p></li>
+<li><p><b>Yeah, I get that sense. The sense that I am also getting is that, okay so hang on a second though we have shifted to him interrupting you. But we started with you interrupting him. Have we shifted?</b></p></li>
+<li><p><b>That you want to listen to him more deeply. What do you think your interruptions are all about? </b></p></li>
+<li><p><b>So, you are talking about the reason you interrupt is to try and prevent the conversation of going in the wrong direction. Have I got that right?</b></p></li>
+<li><p><b>What would happen though?</b></p></li>
+<li><p><b>Does that in any way reflect what you just said?</b></p></li>
+<li><p><b>What do you think might be the value to your husband in you listening to him deeply the way you expressed without interruption? </b></p></li>
+<li><p><b>What if anything have you learned about yourself in our very short conversation tonight?</b></p></li>
+<li><p><b>What might you have learned about your situation?</b></p></li>
+<li><p><b>And so what action if any will you be able to take from these insights?</b></p></li>
+</ul>
+</div>
+<div id="stages-of-change" class="section level2">
+<h2><span class="header-section-number">6.5</span> Stages of Change</h2>
+<i>Based on Prochaska</i>
+<p style="text-align: right; font-size: 8pt; ">
+<i><code>Irene Nizzero, MCP 236, April 22, 2020 @ 4 PM - 5:30 PM</code></i>
+</p>
+<p>Prochaska’s basic premise is that if you don’t catch a person when they are ready for, at the right stage for readiness for change, you are likely to fail. You are trying to invite a person to move forward on something that they are simply are not ready move forward on. The first four stages of change are the ones that are the most connected to coaching.</p>
+<ul>
+<li><p><b>Precontemplation</b></p>
+<ul>
+<li>Raise client’s awareness of behaviors they want to change.</li>
+</ul></li>
+</ul>
+<blockquote>
+<p>A person in precontemplation has this vague sense that change may be necessary, but is not self aware of the issue at hand. A phrase that is a tip off, is “I guess I should be thinking about this.” That is, they haven’t even begun to think about this. This person is probably going to be very resistant to change. This is a person who has up until this point been pretty content in not knowing that there was ever something that needed changing. There is also a level of denial going on with this person. Yet, they may bring it to you for coaching.</p>
+</blockquote>
+<blockquote>
+<p><b>Explore with that person what part of that whole directive is starting to feeling important to them.</b></p>
+</blockquote>
+<ul>
+<li>Talk with the client in a very frank way to say we can’t deal with all of that so what part of that is feeling like the priority for you?</li>
+</ul>
+<blockquote>
+<p><b>In order to really help a client in this stage, open up possibilities with this client.</b></p>
+</blockquote>
+<blockquote>
+<p><b>Start to envision with the client what would a better option for them, or how could this be improved. Starting to really explore what will that give the client and what is the importance of that to the client.</b></p>
+</blockquote>
+<ul>
+<li>What would you like as your goal here if you don’t want to go grab takeout everyday for lunch; what would you like instead?</li>
+</ul>
+<blockquote>
+<p>The client will then start to envision, I am going to save money; I am going to have better control over what goes into my body; and why is that important. Always drilling down to why this might start to sound like a good idea for the client. <b>But remember that however you explore this with a client, you are looking to open up possibilities, i.e. create possibilities with the person as opposed to shutting down options. </b> That makes it more enticing to move in that direction.</p>
+</blockquote>
+<ul>
+<li><p>Are you curious about …</p></li>
+<li><p><b>Contemplation</b></p>
+<ul>
+<li>Monitor the problem behavior and client’s attitudes about it.</li>
+<li>Create list of pros and cons for the behavior.</li>
+<li>Support groups outside of coaching.</li>
+<li>Journaling thoughts, feelings, plans, etc.</li>
+<li>Coaching occurs often in this stage!</li>
+</ul></li>
+</ul>
+<blockquote>
+<p>The person has started to acknowledge and think if I really started to look at this and take control over it, I bet I could have a lot more energy. I bet this would be a benefit to me on a few levels. The client is starting to at least see some potential for moving in the direction. However, they are still fence sitting on the issue. They understand there is an issue here and there could be some room for improving the situation but still a bit unsure about what kind of commitment is this going to take from them and if they are up for it. They are thinking I guess I should do this at some point, but that at some point phrase becomes the problem.</p>
+</blockquote>
+<ul>
+<li><b>You want to get them to start imagining what change might look like?</b></li>
+<li>What happens if you do nothing?</li>
+</ul>
+<blockquote>
+<p>Help the client crystalize in his or her mind why this is a great thing to do and what good could come of this.</p>
+</blockquote>
+<ul>
+<li>What do you stand to gain by making these changes?</li>
+</ul>
+<blockquote>
+<p>You are also managing their <b>inner critic that might be saying things like well I don’t know I have tried sort of doing this sort of thing before.</b></p>
+</blockquote>
+<blockquote>
+<p>May want to have the client consider <b>enlisting the support of others around them.</b></p>
+</blockquote>
+<ul>
+<li>What do you risk if you don’t change?</li>
+<li>If you don’t make this change could it be so bad?</li>
+<li><p>How itis preventing your progress?</p></li>
+<li><p><b>Preparation and Planning</b></p>
+<ul>
+<li>Help client build on their plans.</li>
+<li>Ask them how they will feel when an action is completed.</li>
+<li>Ask them what resources they need for success.</li>
+<li>Do they have concrete dates set?</li>
+<li>Who have they shared their plans with?</li>
+<li>Coaching occurs often in this stage!</li>
+</ul></li>
+</ul>
+<blockquote>
+<p><b>Have the client imagine at least sort of setting things up so they are ready to begin the process.</b> It is the idea of setting the person up for success. If a client jumps this step it often will come back in a coaching session that the person tried to go from contemplation to action, without the preparation between and failed. It is about setting up the resource, both in terms of people and supplies, things, systems that are necessary to make this work.</p>
+</blockquote>
+<ul>
+<li>What do we need to do to get you ready to start…?</li>
+<li>What do you need to set yourself up for success?</li>
+<li>What do you need to change in your environment?</li>
+<li>What do you need to do differently in terms of habits?</li>
+<li>How might you want to change some of those habit?</li>
+<li>What patterns in your day might impact on these decisions or plans that you have?</li>
+<li>What patterns might be part of your morning, evening habits, that could be contributing here?</li>
+<li>What behaviors do you find yourself engaging in regularly?</li>
+</ul>
+<blockquote>
+<p>Contemplation and planning and preparation are the stages that probably the bulk of the coaching will happen.</p>
+</blockquote>
+<ul>
+<li><p><b>Action</b></p>
+<ul>
+<li>Acknowledgement: recognize client’s strengths being applied.</li>
+<li>Celebration: praise the client for their progress, however small, and for their new beliefs.</li>
+</ul></li>
+</ul>
+<blockquote>
+<p>Really crucial to help the client see before getting into action, <b>the desired future state.</b> It is also really critical that the person not bite off more than they can actuall do. There are ways to have very direct communication around that to ensure that what clients have set up for themselves is a realistic goal.</p>
+</blockquote>
+<ul>
+<li>What might you anticipate as barriers to this happening for you?</li>
+<li>Could you imagine barriers coming up for you this week that you would want to plan for, and what might those be?</li>
+<li>What barriers might come up around that this week?</li>
+</ul>
+<blockquote>
+<p>In asking these types of questions, chances are they will start to think through it. The client will usually make more reasonable goals. However, if not as coach you are going with it and support them.</p>
+</blockquote>
+<blockquote>
+<p>They may not get it perfect the first time. <b>Acknowledge every little bit of their success during this stage.</b> Acknowledge their enthusiasm, the energy for the idea, their desire for change, these are all good things. They view it as positive so you enforcing that yes it is positive is NOT a suggestion.</p>
+</blockquote>
+<blockquote>
+<p>Leave it to the client. It is always up to the client to bring progress or talk about progress with you as opposed to you raising it with them.</p>
+</blockquote>
+<ul>
+<li>Would it be helpful to talk about this a bit?</li>
+</ul>
+<blockquote>
+<p>Let them decide whether or not they want to go anywhere with that.</p>
+</blockquote>
+</div>
+<div id="pillars-of-a-balanced-life-1" class="section level2">
+<h2><span class="header-section-number">6.6</span> Pillars of a Balanced Life</h2>
+<p style="text-align: right; font-size: 8pt; ">
+<i><code>Irene Nizzero, MCP 236, April 22, 2020 @ 4 PM - 5:30 PM</code></i>
+</p>
+<ul>
+<li><p>Do I have permission to work with you tonight? We talked a little bit about the pillars. The idea is that it gives you a pretty comprehensive picture of what your life is looking like these days for you, to you. You are going to assign a number to each of these areas according to how you feel it is going in that area on a scale of 1 to 10. Where 1 is yeah I am not at all happy with this and 10 man I couldn’t ask for more in this area. Before we move forward, do you have any questions?</p>
+<blockquote>
+<p>No, the only question I did have when I was looking at these myself right, based on regular life, I am assuming not pandemic life; that is why I was thinking my whole life and not right today.</p>
+</blockquote>
+<ul>
+<li><p>This tool is meant to take stock of where you are today. I would say if pandemic life has turned very different for you, then it is possible that you might like to turn your attention to that. In which case that is a valuable conversation for us to have as well. The great thing about this tool is we could it again in another 6, 8, 10, or 12 months and things could look really different.</p></li>
+<li><p>I am going to leave it to you to decide which of these categories you would like to zero in on first.</p></li>
+</ul>
+<blockquote>
+<p>We can start with professional. I think I would be a 6 at that point today.</p>
+</blockquote>
+<ul>
+<li><p>6 today in the area of professional. Can you tell me a little bit about what positions it at a 6 for you?</p></li>
+<li><p>You don’t have to go into a lot of detail here, but in a sentence or so can you tell me a little bit about what work you do.</p></li>
+<li><p>Do you have in your mind what a 10 would look like in this category?</p></li>
+<li><p>Are we just working our way across or did you want to move to a different category?</p></li>
+<li><p>If you were to look at this, what if anything jumps out at you as you it would be neat to have a little conversation about that topic?</p></li>
+</ul>
+<blockquote>
+<p>Lisa: Well, I guess the play and fun one is the one that I don’t even know how to begin with.</p>
+</blockquote>
+<ul>
+<li><p>You said you gave it a 6, can you say more about where that 6 comes from.</p></li>
+<li><p>What do you think a 7 might look like for you?</p></li>
+</ul>
+<blockquote>
+<p>Um, so probably maybe having a day or ½ a day without a to do list. Maybe?</p>
+</blockquote>
+<ul>
+<li>Yeah. I hear some uncertainty in your voice, can you say more about that?</li>
+</ul>
+<blockquote>
+<p>I just feel like there are always things to do; but it would probably be a healthy thing to do to have a day of not do.</p>
+</blockquote>
+<ul>
+<li>A not to do list or a do what you want list. Yeah, you said it would probably be a healthy thing. What does that mean to you?</li>
+</ul>
+<blockquote>
+<p>So I would just be enjoying the day, you know, sort of like putting my phone away, sometimes I notice I have my phone with me a lot and I try to put it away at a certain at night, but it is not easy, I am always checking it.</p>
+</blockquote>
+<ul>
+<li>What does that, how does that impact you?</li>
+</ul>
+<blockquote>
+<p>The phone, I am probably just always checking the messages, the news, checking on the kids, just checking to see what is going on.</p>
+</blockquote>
+<ul>
+<li><p>And by virtue of that, how does that relate to the whole play and fun idea.</p></li>
+<li><p>My instinct tells me that you are very much a planner. How does that land with you?</p></li>
+<li><p>If we really stretch here what would a 10 be in the area of play and fun?</p></li>
+<li><p>If we were to look at play and fun as a serious 10; for real in your life, what would that look like?</p></li>
+<li><p>What is it about that that appeals to you?</p></li>
+<li><p>Yeah, your voice got a little more somber there as you were thinking about it and describing that; did I imagine that? Or is that…</p></li>
+<li><p>What do you think a first step might be, in allowing that to come into your life a little bit more, the way you described not having a plan or being more in the moment?</p></li>
+<li><p>That is taking us into at least planning and preparation here. What would you need to establish or set up for yourself to maybe make this happen?</p></li>
+<li><p>What would it take to go from planning and preparation into action do you think?</p></li>
+<li><p>And, as you think about that, what resources if any in your environment, people or things, might you need to put into place to support your plan?</p></li>
+<li><p>What have you learned about yourself in this brief conversation that we had tonight?</p></li>
+<li><p>What might you have learned about your situation in this brief conversation?</p></li>
+<li><p>I am wondering if you learned or came to any other realization around your situation?</p></li>
+<li><p>Is there anything else that could be different as a result of our conversation tonight?</p></li>
+<li><p>Is there any way that I can support you in having this happen for you?</p></li>
+<li><p>Anything else you need to feel like this was a good worthwhile conversation for you tonight?</p></li>
+</ul></li>
+</ul>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="tools.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="the.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["coaching_info.pdf", "coaching_info.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

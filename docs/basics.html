@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>4 Basics | MCP 236 Foundations Master Class  Ji won Chang</title>
+  <meta name="description" content="MCP 236 Foundations Master Class Ji won Chang" />
+  <meta name="generator" content="bookdown 0.18 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="4 Basics | MCP 236 Foundations Master Class  Ji won Chang" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="4 Basics | MCP 236 Foundations Master Class  Ji won Chang" />
+  
+  
+  
+
+<meta name="author" content="" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="onboarding.html"/>
+<link rel="next" href="tools.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<script src="libs/htmlwidgets-1.5.1/htmlwidgets.js"></script>
+<link href="libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+<script src="libs/datatables-binding-0.9/datatables.js"></script>
+<link href="libs/dt-core-1.10.19/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="libs/dt-core-1.10.19/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="libs/dt-core-1.10.19/js/jquery.dataTables.min.js"></script>
+<link href="libs/crosstalk-1.0.0/css/crosstalk.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.0.0/js/crosstalk.min.js"></script>
+
+
+<style type="text/css">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Table of contents</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Welcome</a></li>
+<li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Intro</a><ul>
+<li class="chapter" data-level="2.1" data-path="intro.html"><a href="intro.html#definition"><i class="fa fa-check"></i><b>2.1</b> Definition</a></li>
+<li class="chapter" data-level="2.2" data-path="intro.html"><a href="intro.html#about"><i class="fa fa-check"></i><b>2.2</b> About</a></li>
+<li class="chapter" data-level="2.3" data-path="intro.html"><a href="intro.html#positive-psychology"><i class="fa fa-check"></i><b>2.3</b> Positive Psychology</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="onboarding.html"><a href="onboarding.html"><i class="fa fa-check"></i><b>3</b> Onboarding</a><ul>
+<li class="chapter" data-level="3.1" data-path="onboarding.html"><a href="onboarding.html#summary"><i class="fa fa-check"></i><b>3.1</b> Summary</a></li>
+<li class="chapter" data-level="3.2" data-path="onboarding.html"><a href="onboarding.html#intake"><i class="fa fa-check"></i><b>3.2</b> Intake</a></li>
+<li class="chapter" data-level="3.3" data-path="onboarding.html"><a href="onboarding.html#initial-call"><i class="fa fa-check"></i><b>3.3</b> Initial call</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="basics.html"><a href="basics.html"><i class="fa fa-check"></i><b>4</b> Basics</a><ul>
+<li class="chapter" data-level="4.1" data-path="basics.html"><a href="basics.html#structure"><i class="fa fa-check"></i><b>4.1</b> Structure</a></li>
+<li class="chapter" data-level="4.2" data-path="basics.html"><a href="basics.html#agenda"><i class="fa fa-check"></i><b>4.2</b> Agenda</a></li>
+<li class="chapter" data-level="4.3" data-path="basics.html"><a href="basics.html#narrowing"><i class="fa fa-check"></i><b>4.3</b> Narrowing</a></li>
+<li class="chapter" data-level="4.4" data-path="basics.html"><a href="basics.html#via"><i class="fa fa-check"></i><b>4.4</b> VIA</a></li>
+<li class="chapter" data-level="4.5" data-path="basics.html"><a href="basics.html#articulating"><i class="fa fa-check"></i><b>4.5</b> Articulating</a></li>
+<li class="chapter" data-level="4.6" data-path="basics.html"><a href="basics.html#acknowledgement"><i class="fa fa-check"></i><b>4.6</b> Acknowledgement</a></li>
+<li class="chapter" data-level="4.7" data-path="basics.html"><a href="basics.html#permission"><i class="fa fa-check"></i><b>4.7</b> Permission</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="tools.html"><a href="tools.html"><i class="fa fa-check"></i><b>5</b> Tools</a><ul>
+<li class="chapter" data-level="5.1" data-path="tools.html"><a href="tools.html#powerful-questions"><i class="fa fa-check"></i><b>5.1</b> Powerful questions</a></li>
+<li class="chapter" data-level="5.2" data-path="tools.html"><a href="tools.html#inquiry"><i class="fa fa-check"></i><b>5.2</b> Inquiry</a></li>
+<li class="chapter" data-level="5.3" data-path="tools.html"><a href="tools.html#listening"><i class="fa fa-check"></i><b>5.3</b> Listening</a></li>
+<li class="chapter" data-level="5.4" data-path="tools.html"><a href="tools.html#inner-critic"><i class="fa fa-check"></i><b>5.4</b> Inner Critic</a></li>
+<li class="chapter" data-level="5.5" data-path="tools.html"><a href="tools.html#intuition"><i class="fa fa-check"></i><b>5.5</b> Intuition</a></li>
+<li class="chapter" data-level="5.6" data-path="tools.html"><a href="tools.html#metaphor"><i class="fa fa-check"></i><b>5.6</b> Metaphor</a></li>
+<li class="chapter" data-level="5.7" data-path="tools.html"><a href="tools.html#coaching-presence"><i class="fa fa-check"></i><b>5.7</b> Coaching Presence</a></li>
+<li class="chapter" data-level="5.8" data-path="tools.html"><a href="tools.html#pillars-of-a-balanced-life"><i class="fa fa-check"></i><b>5.8</b> Pillars of a Balanced Life</a></li>
+<li class="chapter" data-level="5.9" data-path="tools.html"><a href="tools.html#championing"><i class="fa fa-check"></i><b>5.9</b> Championing</a></li>
+<li class="chapter" data-level="5.10" data-path="tools.html"><a href="tools.html#celebrating"><i class="fa fa-check"></i><b>5.10</b> Celebrating</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="demos.html"><a href="demos.html"><i class="fa fa-check"></i><b>6</b> Demos</a><ul>
+<li class="chapter" data-level="6.1" data-path="demos.html"><a href="demos.html#wia"><i class="fa fa-check"></i><b>6.1</b> WIA</a></li>
+<li class="chapter" data-level="6.2" data-path="demos.html"><a href="demos.html#inner-critic-1"><i class="fa fa-check"></i><b>6.2</b> Inner Critic</a></li>
+<li class="chapter" data-level="6.3" data-path="demos.html"><a href="demos.html#metaphor-1"><i class="fa fa-check"></i><b>6.3</b> Metaphor</a></li>
+<li class="chapter" data-level="6.4" data-path="demos.html"><a href="demos.html#coaching-presence-1"><i class="fa fa-check"></i><b>6.4</b> Coaching Presence</a></li>
+<li class="chapter" data-level="6.5" data-path="demos.html"><a href="demos.html#stages-of-change"><i class="fa fa-check"></i><b>6.5</b> Stages of Change</a></li>
+<li class="chapter" data-level="6.6" data-path="demos.html"><a href="demos.html#pillars-of-a-balanced-life-1"><i class="fa fa-check"></i><b>6.6</b> Pillars of a Balanced Life</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="the.html"><a href="the.html"><i class="fa fa-check"></i><b>7</b> Theories</a><ul>
+<li class="chapter" data-level="7.1" data-path="the.html"><a href="the.html#pagmalian-effect"><i class="fa fa-check"></i><b>7.1</b> Pagmalian Effect</a></li>
+<li class="chapter" data-level="7.2" data-path="the.html"><a href="the.html#parkinsons-law"><i class="fa fa-check"></i><b>7.2</b> Parkinson’s Law</a></li>
+<li class="chapter" data-level="7.3" data-path="the.html"><a href="the.html#eisenhower-matrix"><i class="fa fa-check"></i><b>7.3</b> Eisenhower Matrix</a></li>
+<li class="chapter" data-level="7.4" data-path="the.html"><a href="the.html#theories-of-change"><i class="fa fa-check"></i><b>7.4</b> Theories of Change</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="client.html"><a href="client.html"><i class="fa fa-check"></i><b>8</b> Clients</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">MCP 236 Foundations Master Class <br><font size = 5'><i>Ji won Chang</i></font></br></a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="basics" class="section level1">
+<h1><span class="header-section-number">4</span> Basics</h1>
+<div id="structure" class="section level2">
+<h2><span class="header-section-number">4.1</span> Structure</h2>
+<p style="text-align: right; font-size: 8pt; ">
+<i><code>Irene Nizzero, MCP 236, March 4, 2020 @ 4 PM - 5:30 PM</code></i>
+</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" data-line-number="1">     Coaching session</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">     ├── Permission</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">90s  ├── Agenda</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">         ├── Narrowing</a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">     ├── Success identification</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6">     ├── Powerful questions</a>
+<a class="sourceLine" id="cb1-7" data-line-number="7">         ├── Raising Self<span class="op">-</span>Awareness</a>
+<a class="sourceLine" id="cb1-8" data-line-number="8">         ├── Action</a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"><span class="dv">1</span><span class="op">/</span><span class="dv">2</span>  ├── Agenda check<span class="op">-</span><span class="cf">in</span></a>
+<a class="sourceLine" id="cb1-10" data-line-number="10">     │</a>
+<a class="sourceLine" id="cb1-11" data-line-number="11">     ├── Powerful questions</a>
+<a class="sourceLine" id="cb1-12" data-line-number="12">     ├── Accountability</a>
+<a class="sourceLine" id="cb1-13" data-line-number="13">     └── Wrap up</a></code></pre></div>
+<p style="text-align: right; font-size: 8pt; ">
+<i><code>Irene Nizzero, MCP 236, April 15, 2020 @ 4 PM - 5:30 PM</code></i>
+</p>
+<p>Once you have secured a coaching agreement you don’t have to ask for permission anymore for coaching.</p>
+</div>
+<div id="agenda" class="section level2">
+<h2><span class="header-section-number">4.2</span> Agenda</h2>
+<p style="text-align: right; font-size: 8pt; ">
+<i><code>Irene Nizzero, MCP 236, March 4, 2020 @ 4 PM - 5:30 PM</code></i>
+</p>
+<p>Invite the person to indicate what they would like to work on. The client always sets the agenda. In as much as possible, it is the client’s story and we are trying to get out the whole story.</p>
+<p>Holding the client’s agenda is both a philosophical stance and a skill employed by coaches. When a coach holds the client’s agenda, the coach becomes invisible. That is to say, the coach lets go of the coach’s opinions, judgments, and answers in support of facilitating the client’s fulfillment, balance, and process. The coach follows the client’s lead without knowing the RIGHT answer, without giving solutions or telling the client what to do. Holding the client’s agenda requires the coach to put the coach’s whole attention on the client and the client’s agenda not on the coach’s agenda for the client.</p>
+<ul>
+<li><p><b>The clients agenda is the single most important element of a coaching session and it is the first task of every coaching call.</b></p></li>
+<li><p><b>The agenda needs to be something that is observable and measurable.</b></p></li>
+</ul>
+<p>A client’s agenda needs to be specific and measurable so that the success of the coaching call can be determined. You have to whittle down until you can get something that is essentially an observable, and measurable outcome; ideally with some sort of timeline to it. The timeline is not crucial.</p>
+<p style="text-align: right; font-size: 8pt; ">
+<i><code>Irene Nizzero, MCP 236, April 1, 2020 @ 4 PM - 5:30 PM</code></i>
+</p>
+<blockquote>
+<p>What would success look like?</p>
+</blockquote>
+<blockquote>
+<p>That is usually the best form of it. But a variant might be:</p>
+</blockquote>
+<blockquote>
+<p>What will you come away with from this call on this topic that will help you?</p>
+</blockquote>
+<blockquote>
+<p>What is getting in the way of you being able to show up as a strong person, or what is getting in the way of, or what do you need to resolve here that you are not able to sort of work through on your own.</p>
+</blockquote>
+<p>In other words why do you need a coach to help you with. What is really the underlying piece, but it really gets to what is the thing behind the thing.</p>
+<p>We don’t coach emotions. If a client were to come to you and say I just like to be more confident in this situation, you will ask:</p>
+<blockquote>
+<p>What will that look like if you have more confidence?</p>
+</blockquote>
+<blockquote>
+<p>How will you know you are more confident?</p>
+</blockquote>
+<blockquote>
+<p>What will you be doing differently if you are confident?</p>
+</blockquote>
+<p>What we want to focus on is behavioral change and growth. For example, a client didn’t want to talk over people, but was upset that his ideas were being unheard. He came with an identified lack of confidence and willingness to step out of his comfort zone as an intervert, but we were able to bring it to a behavior that we could focus on. We had to drill down into:</p>
+<blockquote>
+<p>Where do you think this coming from?</p>
+</blockquote>
+<blockquote>
+<p>What is getting in the way of you from actually doing this?</p>
+</blockquote>
+<blockquote>
+<p>How is this manifesting that you are experiencing a lack of confidence?</p>
+</blockquote>
+<ul>
+<li><b>Needs to be specific and solveable within the session.</b></li>
+</ul>
+<blockquote>
+<p>Big A agenda and little A agenda: For example, at the intake, the client is looking for a career change. That won’t happen in a single agenda but that is the big A agenda. You then ask when would you like this to happen and you start to get a sense of what the coaching trajectory should look like. Then you say that we will have to bring something workable for a small session. For session 1, the client might say I haven’t updated my resume in 6 years (little A agenda).Getting an updated clean resume might be today’s agenda. Or it might be that the client says I am afraid to go to my first interview. I feel like interview skills are horribly rusty and I don’t know where to begin. I need to think about how I am going to get around this and get past my nerves for the interview. So you ask them to identify what would it look like for them to walk into an interview the way they want to. You get specifics there that are observable and measurable. We are not talking about nerves. We are talking about behavioral change. Things that are identifiable.</p>
+</blockquote>
+<ul>
+<li><p><b>You need to get to the agenda in the first 90 seconds of the call.</b></p></li>
+<li><p><b>It is advisable that part way through, to ask you have stated your agenda for today how are we at achieving that agenda?</b></p></li>
+</ul>
+<blockquote>
+<p>There is a check in with the client to say are we on track. Are we getting somewhere and on the right path? If the client all the sudden says, I have no references because I left things really badly with my last boss. I can’t even do my resume until I get my references figured out. Now it sounds like the client has shifted agenda.</p>
+</blockquote>
+<ul>
+<li><b>If the client indicates they want to shift their agenda, follow what the client wants to do.</b></li>
+</ul>
+<blockquote>
+<p>Is this what you would like to talk about at this point? Are we changing the agenda then, is that what I am hearing you say?</p>
+</blockquote>
+<ul>
+<li><p><b>Did you get what you needed today?</b></p></li>
+<li><p><b>How did we do at accomplishing the agenda you brought to today’s session?</b></p></li>
+</ul>
+<p>The vast majority of your coaching time is spent building awareness. So, we don’t necessarily have to get them to action.</p>
+<p style="text-align: right; font-size: 8pt; ">
+<i><code>Irene Nizzero, MCP 236, March 18, 2020 @ 4 PM - 5:30 PM</code></i>
+</p>
+<p>The awareness that we are building is about the agenda, the things that might get in the way or be blindspots to the individual that have prevented him or her from getting to that agenda on their own.One of questions that we sometimes ask at the begining of the session is “what makes this challenging for you?” In other words, “Why do you need a coach to achieve this or why are you not able to get there on your own?” We get to layers below the actual accomplishment of the agenda. People need to understand more about what makes this difficult and gets in their way. If you don’t peel away those layers and get what is right at the root or the deeper understanding of what has been holding them back, then you have a person trying superficial approaches. During this deep exploration, other learning happens, and it is out of that learning that people figure out what actions they need to take. All self-awareness building is on agenda, and when clients learn about themselves and what is stopping them or causing them to be stuck, they then implicitly work out their problem. They are left with a feeling that they know how and have the confidence to tackle their problem. That is how they feel like you have achieved the agenda without talking about action. Awareness building doesn’t mean we are replacing the agenda with something new, it adds to our understanding of the agenda.</p>
+<p style="text-align: left; font-size: 16pt; ">
+<u><i>Lack of an agenda</i></u>
+</p>
+<p style="text-align: right; font-size: 8pt; ">
+<i><code>Irene Nizzero, MCP 236, March 25, 2020 @ 4 PM - 5:30 PM</code></i>
+</p>
+<p>If a client doesn’t have an agenda I sometimes don’t have a session. It would be best for manage your private clients, as you are setting up a coaching relationship with them, to make it clear that they will come with an agenda item. I have encouraged my clients to let me know if they have nothing to work on that they should just let me know and we should just cancel the session. Because the thing that you don’t want to get into is having really deep conversations with somebody. You want coaching to be effective and a good use of both of your time. If you are being paid to coach you should be coaching. So that all comes at the front end, and I might have a session with a client who says well I didn’t really get a chance to think about it so I don’t really have anything. In that instance I might say to them well okay here is the deal I will do some work with you if you want to try and unearth an agenda this time. But going forward I would really just welcome you to cancel the session if you don’t have anything immediately present. I also ask for it in advance on a call focus form that eliminates this problem. It includes a question that asks what would you like the next agenda item to be that they should send to me in advance.</p>
+<ul>
+<li><b>If a client asks how they can change another person how do we deal with that?</b></li>
+</ul>
+<blockquote>
+<p>I am coaching you. Can’t change another person. Your behavior, your response to that person, can’t change their behavior. Right but it is going to be her response to when he interrupts her.</p>
+</blockquote>
+</div>
+<div id="narrowing" class="section level2">
+<h2><span class="header-section-number">4.3</span> Narrowing</h2>
+<p style="text-align: right; font-size: 8pt; ">
+<i><code>Irene Nizzero, MCP 236, March 11, 2020 @ 4 PM - 5:30 PM</code></i>
+</p>
+<p>Sometimes, people can’t understand what we are trying to get from them. That usually the coach is looking for a strategy, technique, tip or an idea that will help when client solve their problem. You will want to address this at the intake conversation with your client. But if you have to give tell them, then give them some options and say something like this:</p>
+<blockquote>
+<p>I would love for you to sift through that and figure out what the phrase is that makes the most sense to you, that you will take away from this conversation.</p>
+</blockquote>
+</div>
+<div id="via" class="section level2">
+<h2><span class="header-section-number">4.4</span> VIA</h2>
+<p style="text-align: right; font-size: 8pt; ">
+<i><code>Irene Nizzero, MCP 236, March 4, 2020 @ 4 PM - 5:30 PM</code></i>
+</p>
+<p>In Psychology, the DSM (the Diagnostic and Statistical Manual) lists everything that can go basically wrong with people that renders a diagnosis and the various symptoms that are manifested. Kris Peterson and Martin Seligman recognized that they needed to have something that was the opposite of the DSM for Positive Psychology, or the un-DSM. Basically all the things that could go well or right with people. They created a tool, the VIA Character Strengths survey and classification - nicknamed the un-DSM, that has universal application. They wanted the VIA to be applicable worldwide. The VIA is tested and validated in multiple languages, cultures, etc. A large part of their research was what should be included as a character strength.There are 24 character strengths in the VIA, and the top 5 are referred to as your signature strengths.</p>
+<p style="text-align: right; font-size: 8pt; ">
+<i><code>Irene Nizzero, MCP 236, March 4, 2020 @ 4 PM - 5:30 PM</code></i>
+</p>
+<ul>
+<li><b>Self-Regulation &amp; Humility</b></li>
+</ul>
+<blockquote>
+<p>In North America, Self-Regulation tends to be the lowest of the strengths. If it you have it in your top 5 strengths it is can be considered rare and a real bonus. Humility is also rare.</p>
+</blockquote>
+<ul>
+<li><b>Correlation with happiness</b></li>
+</ul>
+<blockquote>
+<p>It is considered to be true that <b>Gratitude, Hope, Love, Curiousity, and Zest</b> are correlated wtih happiness. Not sure if there is scientific research but these are touted to be true. Chances are good that you have at least 1 of these in your top 5 strengths.</p>
+</blockquote>
+<p style="text-align: right; font-size: 8pt; ">
+<i><code>Irene Nizzero, MCP 236, April 29, 2020 @ 4 PM - 5:30 PM</code></i>
+</p>
+<blockquote>
+<p>The most common of the five is Love.</p>
+</blockquote>
+</div>
+<div id="articulating" class="section level2">
+<h2><span class="header-section-number">4.5</span> Articulating</h2>
+<p style="text-align: right; font-size: 8pt; ">
+<i><code>Irene Nizzero, MCP 236, March 4, 2020 @ 4 PM - 5:30 PM</code></i>
+</p>
+<p>This skill involves telling clients what you see them doing; repeating or mirroring back to them what they have just said to you. “You are really working hard at this project and it is frustrating for you that your partners are not working as hard as you are.” Basically here is what I understood you to say and ensure that you have heard it accurately; that you are not misinterpreting or misrepresenting. It is important that the client feels heard. Just by hearing what the client has said and playing it back with perhaps a slight level of interpretation or expanding, the client gets sold on the power of coaching.</p>
+<p>Many coaches overuse this skill, especially those with prior experience as mental health professionals, academics and consultants. To guard against overuse, coach using mostly powerful questions.</p>
+<blockquote>
+<p>What I am hearing is this..</p>
+</blockquote>
+<blockquote>
+<p>Do I have this right?</p>
+</blockquote>
+<blockquote>
+<p>So there are specific little things, part of the minutiae of your day, that you tend to focus on, if I understand you correctly, that you are feeling is leading to this sense of overload. Do I have that right? And so if we can come away with a step or a plan for you to be able to do something about that that would be a helpful thing?</p>
+</blockquote>
+<blockquote>
+<p>I am hearing the possibility of some fears that letting go might mean that all sorts of things might unvravel. How does that resonate with you?</p>
+</blockquote>
+<p>If we are off the mark, often that step of clarifying works to help the client be more clear.</p>
+</div>
+<div id="acknowledgement" class="section level2">
+<h2><span class="header-section-number">4.6</span> Acknowledgement</h2>
+<p style="text-align: right; font-size: 8pt; ">
+<i><code>Irene Nizzero, MCP 236, February 26 &amp; March 4, 2020 @ 4 PM - 5:30 PM</code></i>
+</p>
+<p>The concept of “acknowledgement” in positive psychology addresses the Self and who the client has to be to accomplish whatever action the client takes or awareness that the client has developed. It is the articulation of a person’s deep knowing of the other.</p>
+<p>It’s often done in two parts. First, the coach begins with the phrase, “What I know about you …” and then the coach notices the impact. It’s often useful to use acknowledgement along with the client’s VIA strengths.</p>
+<blockquote>
+<p><i>Example</i>
+<br>Tom, what I want to acknowledge in you is the sensitivity that things could be better. </br></p>
+</blockquote>
+<blockquote>
+<p>It is clear that your Love of Learning has already served you because you went to the site and checked out this stuff and discovered the whole overuse and underuse of strengths.</p>
+</blockquote>
+<blockquote>
+<p>Wow, Ji won, what I know about you is that you absolutely have the strength of Love of Learning.</p>
+</blockquote>
+<p>Period full stop. Let the client sit with that. There is no need to go into a big long explanation of why or how the coach came to that conclusion.</p>
+<p>It’s unlikely that the client won’t understand why you are saying that because you pull it right out what of what they are saying. You are reflecting on what the client said to you through acknowledgement. Often the acknowledgement we give is tied to strengths.</p>
+<p><b>Acknowledgement plays an important role in coaching and coaches should use it in every coaching session.</b> It comes from the coach’s intuition, it’s always honest and sincere, and it focusing on being, not doing. It is important because clients hear a lot of negative stuff in the world everyday, whether directed or surrounding them. Something that coaches do that is pivotal is they help clients feel a sense of hope about their situation, their options, their capacity for movement forward. That is how coaches help people see their true potential. Hope comes through encouragement in the form of acknowledgment. Coaches need to be that encourager, who helps clients see positivity and experience that in their interactions.</p>
+</div>
+<div id="permission" class="section level2">
+<h2><span class="header-section-number">4.7</span> Permission</h2>
+<p style="text-align: right; font-size: 8pt; ">
+<i><code>Irene Nizzero, MCP 236, March 11, 2020 @ 4 PM - 5:30 PM</code></i>
+</p>
+<p>As a coach you might be inclined to propose an activity; we have a very specific way of including those into the conversation around asking permission. If client says, “It is really hard for me to feel upbeat at all these days. There are too pressures and the stressors.” You might start by asking, “Well, what approaches have you tried so far to lift yourself out of that kind a funk?” See where the client goes with that. If they really have no idea then you might say something like:</p>
+<blockquote>
+<p>As you know, I have a background in positive psychology and there a number of tools and applications that they recommend. <b>With your permission</b>, I would like to propose one of these for your consideration. There is this activity called a gratitude journal, etc. You are putting the suggestions out there and then you ask something like <b>how does this information inform your thought process so far?</b></p>
+</blockquote>
+<p>Lastly, you will have no expectations that they will start a gratitude journal or the time that they will spend doing any activity that you have recommended.</p>
+<p>Richard Boyatzis, one of the authors of <i>Helping People Change</i>, he has done the most official scientifically oriented research on coaching. He found out that as soon as a person feels that there is an obligation to take a step or make a particular direction, our brains get into the same narrow response mode as fight or flight. They immediately begin to think that it’s another pressure, task, duty. However, when we get to a brain space where we reveal for ourselves, with the help even of a coach, what the next right thing seems to be - the brain creativity centers open up, we are energized, we are enthused. That is what powerful questions do. They invite out of the individual the best answer for the person, as opposed to us giving them something to ponder, to consider, or to add to their to do list. Thus, you will almost never need to do suggest an activity.</p>
+<p style="text-align: left; font-size: 16pt; ">
+<u><i>Activities</i></u>
+</p>
+<p style="text-align: right; font-size: 8pt; ">
+<i><code>Irene Nizzero, MCP 236, February 26, 2020 @ 4 PM - 5:30 PM</code></i>
+</p>
+<p>Expressions of gratitude are known to have a quick immediate effect when we start to say nice things that go well. There are a couple of activities that can be recommended.</p>
+<ul>
+<li><b>Gratitude Journal</b></li>
+</ul>
+<blockquote>
+<p>For at least 30 days, write three to five things that you are grateful for that occurred during that day before you go to bed.</p>
+</blockquote>
+<ul>
+<li><b>Gratitude Letter</b></li>
+</ul>
+<blockquote>
+<p>Think of someone who has had a strong positive impact on your life, but whom you may not have thanked properly. Write that person a letter, telling them what they did that was so important to you, and why you are grateful for them in your life. Don’t mail the letter. Call them and arrange a visit, but don’t say why. During this visit, READ the letter aloud to them, and provide them a copy to keep.</p>
+</blockquote>
+<ul>
+<li><b>Success/Strengths Journal</b></li>
+</ul>
+<blockquote>
+<p>At the end of the day (or work day) write down three things that went well, but also consider what role your strengths had in making them happen.</p>
+</blockquote>
+<ul>
+<li><b>Positive Reframing</b></li>
+</ul>
+<blockquote>
+<p>Consider an event that was challenging or a struggle in recent past. Think of how this may be an opportunity for new learning or awareness. In other words, consider what “silver lining” may exist in this situation. Also what role did you have in making that happen.</p>
+</blockquote>
+<ul>
+<li><b>Loving Kindness Meditation</b></li>
+</ul>
+<p style="text-align: right; font-size: 8pt; ">
+<i><code>Irene Nizzero, MCP 236, March 25, 2020 @ 4 PM - 5:30 PM</code></i>
+</p>
+<blockquote>
+<p>For at least 30 days, write three to five things that you are grateful for that occurred during that day before you go to bed.</p>
+</blockquote>
+<p>Like with all mediation, we are focusing inward, and trying to slow our minds. If our mind wanders, we are not critical or judgemental of ourselves; you just sort of note it and bring it back and you just carry on with it.</p>
+<p>Focus on yourself. Think of words that express what you need at the time that you are using the technique. Breathe in and out deeply and slowly repeat these statements for yourself.</p>
+<blockquote>
+<p>May I know peace; May I know love; May I know strength; May I know calm.</p>
+</blockquote>
+<p>Give yourself a couple of minutes of slowly and methodically repeat these phrases. Pause for a while to contemplate what the words truly mean and try to gauge how they are making you feel inside. Then, if you choose to do this, pick another person to focus on, and extend these phrases to them.</p>
+<blockquote>
+<p>May you know peace; May you know love; May you know strength; May you know calm.</p>
+</blockquote>
+<p>Chances are good that you will use the same four words that you use on yourself to the other person. You can take some time to decide which four words fit best for both of you, and spend another couple minutes doing that version of it. Paired with just the slow steady very deep breathing, it is remarkable how powerful this tool can be.</p>
+<ul>
+<li><b>Self compassion</b></li>
+</ul>
+<p style="text-align: right; font-size: 8pt; ">
+<i><code>Irene Nizzero, MCP 236, April 1, 2020 @ 4 PM - 5:30 PM</code></i>
+</p>
+<p>Kristin Neff, is considered to be one of the foremost authorities on self compassion, and her colleague, Kris, have a whole series of workshops where you can learn in great depth about self-compassion, but as a teaser they have 3 videos. Her website is called Sounds true. Self-compassion is the ability to forgive yourself, to give yourself permission to be human, to give yourself permission to have weak moments, or to struggle with things or to be less than perfect. She also has a Ted talk which might be more accessible to people.</p>
+<p>The actual application of self-compassion includes 3 steps:</p>
+<ol style="list-style-type: decimal">
+<li><b>Give it a voice, acknowledge it, and be with it.</b> Acknowledge the difficulty that you are in by telling yourself words like, wow this is really hard or I am really struggling right now.</li>
+<li><b>Normalize it.</b> Acknowledge that this is part of humanity and that really and truly you are not alone. Anyone in my shoes dealing with what I am dealing with right now would also be struggling and saying these things normalizes it.</li>
+<li><b>Then, think about if you had a friend saying they were having a hard time what would you say and say that to yourself.</b> What would I say to that very dear friend to encourage her, and then that is what you say to yourself. If it helps, then make a gesture such as putting your hands on your heart. Going through those 3 steps is helpful, soothing and comforting.</li>
+</ol>
+<p><br></br></p>
+<ul>
+<li><b>Savoring</b></li>
+</ul>
+<p style="text-align: right; font-size: 8pt; ">
+<i><code>Irene Nizzero, MCP 236, April 8, 2020 @ 4 PM - 5:30 PM</code></i>
+</p>
+<p>Savoring the exercise where you go back in time and envision in as much detail as possible a momentous occasion. Something that was meaningful, powerful, memorable for any number of positive reasons.</p>
+<blockquote>
+<p>A special birthday, the wedding of someone significant to you, or your own perhaps, but it could be any moment in your life that was particularly powerful.</p>
+</blockquote>
+<p>The more detail that you can bring to mind the more your brain brings back those same experiences and feels the actual chemicals that were uplifting then into the present. Your brain doesn’t know the difference between the event and the memory of the event, especially if you are able to bring it forward with a significant amount of detail, such as sounds, specific exchanges that happened, what you were wearing, and as much of the visual detail as possible. Mentally going back to that event brings a very positive experience to you emotionally and mentally. It is even better if you can do that walk down memory lane with someone who was part of that experience. It will have the same positive impact to the other person who is engaged in the experience with you.</p>
+<ul>
+<li><i>Prospective Savoring</i></li>
+</ul>
+<p>A twist to Savoring that is particularly powerful, is Prospective Savoring, where we are imagining a future that we can create. Think of an experience that could happen and the more detail as you can bring in the better.</p>
+<p><br></br></p>
+<ul>
+<li><b>3 W’s or What Went Well</b></li>
+</ul>
+<p style="text-align: right; font-size: 8pt; ">
+<i><code>Irene Nizzero, MCP 236, April 15, 2020 @ 4 PM - 5:30 PM</code></i>
+</p>
+<p>Ask yourself what went well, and go into detail around why it went well. It sort of takes the activity of 3 things you can be grateful for and 3 good things and kind of adds a layer to them by describing who was the causal agent. Consider at least 3 occasions in your day where you were the influence on something going well. It usually is sort of considered a journaling type activity and spending the time actually noting them down is extremely powerful.</p>
+<p>Take ownership over an otherwise challenging day, for some small part of it, that went well and give yourself permission to take credit for how you contributed to that going well. The idea is that you recognize <b>you</b> am made this happen. Through this you recognize where you do have control to exert positive influence; you recognize even in the midst of a chaotic and challenging day there are still times that you can rise to the occasion and see to it that good things happen. Maybe you surprised yourself, perhaps you didn’t know how it was going to go but look how well this turned out. It could be much bigger than I made this happen; it could be wow I really went above and beyond.</p>
+<p>But it doesn’t have to be you, perhaps you want to recognize a partner or a spouse doing something as well. It is still recognizing the good and those positive feelings that you can engender for that other person. Doing this for yourself or someone else can be very also uplifting and enfuse your brain with good chemicals - serotonin, oxytocin, etc.</p>
+<p><br></br></p>
+<ul>
+<li><b>Random or Planned Acts of Kindness</b></li>
+</ul>
+<p style="text-align: right; font-size: 8pt; ">
+<i><code>Irene Nizzero, MCP 236, April 22, 2020 @ 4 PM - 5:30 PM</code></i>
+</p>
+<p>Brain science shows the impact of this kind of activity and it floods your brain with positive emotions. Martin Seligman said that research shows that if you are in a bad mental state, one of the quickest ways to help lift your mood is to do something good or nice for another person.</p>
+<p><br></br></p>
+<ul>
+<li><b>VIA Character Strengths</b></li>
+</ul>
+<p style="text-align: right; font-size: 8pt; ">
+<i><code>Irene Nizzero, MCP 236, April 29, 2020 @ 4 PM - 5:30 PM</code></i>
+</p>
+<p>Virtually every strength that you have has its place and can helpful around managing, coping, and dealing with the change. Our strengths can be an aide to us everyday, around any topic outside of just the coaching conversation. Intentionally calling on one of our strengths can often be a very helpful thing. When you redirect your focus and be very intentional about thinking about something specific, it is remarkable how well that impacts against anxiety elevation.</p>
+<ul>
+<li>Memorize or keep your top 5 signature strengths somewhere.</li>
+<li>Think about your strengths, which one would be most helpful to you in this moment.</li>
+<li>Plan which of your strengths could be the most use to you throughout the day and make it a pratice.</li>
+<li><p>Look at your underexpressed strengths (bottom ⅓ or the 17 - 24), and make a conscious effort to use it more.</p>
+<blockquote>
+<p>For example, if I use my curiousity strength and am just curious about something how will that change things. Mike Steger, who writes a lot about finding meaning in life, said that when we are in moments of stress or challenge what would happen if we just got really curious about our situation</p>
+</blockquote></li>
+<li><p>Any strength if you wanted to make it your focus could serve you, whether it’s a signature strength, a mid-range strength, a lesser used strength.</p>
+<blockquote>
+<p>Focusing on strengths can also provide a distraction. Sit yourself down and think about something specific helps to redirect and calm your anxieties. Thinking about using a strength is as good as a distraction as any.</p>
+</blockquote>
+<blockquote>
+<p>If you want to be very effective in accomplishing something or work on a specific challenge, work on your signature strengths. But if all you are doing is just trying to be more conscious of your strengths in general, using mid-range or lower strengths is fine.</p>
+</blockquote></li>
+</ul>
+<p><br></br></p>
+<ul>
+<li><b>Happiness Audit</b></li>
+</ul>
+<p style="text-align: right; font-size: 8pt; ">
+<i><code>Irene Nizzero, MCP 236, April 29, 2020 @ 4 PM - 5:30 PM</code></i>
+</p>
+<ul>
+<li>Throughout your day journaling all the things that are providing uplifts, so that you knows which things to gravitate towards more and which things to eliminate in her life.</li>
+</ul>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="onboarding.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="tools.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["coaching_info.pdf", "coaching_info.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
